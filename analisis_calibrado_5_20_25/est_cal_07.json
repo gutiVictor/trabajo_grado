@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "2.0-CALIBRADO",
+    "fecha_creacion": "2026-02-28T18:52:01.961456"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_CAL_007",
+    "programa": "Derecho",
+    "semestre_actual": 2,
+    "jornada": "Virtual"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 2.19,
+    "promedio_ultimo_semestre": 2.04,
+    "materias_perdidas_ultimo": 7,
+    "dificultad_percibida": "Mucha",
+    "creditos": {
+      "aprobados": 30,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": false,
+    "frecuencia_semanal": 2
+  },
+  "socioeconomico": {
+    "estrato": 1,
+    "trabajo": {
+      "activo": true,
+      "horas_semanales": 41
+    },
+    "dificultad_pago": "Graves"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_frecuentemente",
+    "satisfaccion_programa": 1,
+    "probabilidad_continuar_percibida": 0.1
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

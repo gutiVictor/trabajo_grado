@@ -1,0 +1,34 @@
+{
+    "metadata": {
+      "total_registros": 50,
+      "fecha_generacion": "2024-03-15T10:00:00Z",
+      "tasa_desercion": 0.30,
+      "descripcion": "Dataset sintético histórico para entrenamiento inicial"
+    },
+    "registros": [
+      {
+        "id": "EST_HIST_000",
+        "target": 1,
+        "features": {
+          "promedio_acumulado": 3.15,
+          "promedio_ultimo": 2.45,
+          "materias_perdidas": 2,
+          "dificultad_alta": 1,
+          "pct_creditos_aprobados": 0.62,
+          "acceso_plataforma": 0,
+          "frecuencia_baja": 1,
+          "participacion_baja": 1,
+          "no_consulta_profesores": 1,
+          "estrato_bajo": 1,
+          "trabaja": 1,
+          "trabaja_mucho": 1,
+          "dependientes": 1,
+          "dificultad_pago": 2,
+          "piensa_desertar_frecuente": 1,
+          "satisfaccion_baja": 1,
+          "probabilidad_continuar_baja": 1,
+          "evento_estresante": 1
+        }
+      }
+    ]
+  }

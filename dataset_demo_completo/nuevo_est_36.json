@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fecha_creacion": "2026-02-28T18:28:06.710318",
+    "tipo_registro": "NUEVO"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_NUEVO_036",
+    "programa": "Derecho",
+    "semestre_actual": 2,
+    "jornada": "Nocturna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 3.42,
+    "promedio_ultimo_semestre": 2.9899999999999998,
+    "materias_perdidas_ultimo": 2,
+    "dificultad_percibida": "Media",
+    "creditos": {
+      "aprobados": 40,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": true,
+    "frecuencia_semanal": 8
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "trabajo": {
+      "activo": false,
+      "horas_semanales": 0
+    },
+    "dificultad_pago": "Algunas"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_alguna_vez",
+    "satisfaccion_programa": 5,
+    "probabilidad_continuar_percibida": 0.5
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

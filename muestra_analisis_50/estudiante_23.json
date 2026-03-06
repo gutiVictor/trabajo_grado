@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "version": "1.0-MVP",
+    "fecha_creacion": "2026-02-28T18:16:46.375575",
+    "tipo_registro": "nuevo",
+    "institucion": "CUN"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_MUESTRA_023",
+    "programa": "Psicologia",
+    "semestre_actual": 2,
+    "jornada": "Diurna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 3.9,
+    "promedio_ultimo_semestre": 4.01,
+    "materias_perdidas_ultimo": 1,
+    "dificultad_percibida": "Ninguna",
+    "creditos": {
+      "aprobados": 43,
+      "intentados": 100,
+      "pct_aprobados": 0.9
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": true,
+    "frecuencia_semanal": 10,
+    "participacion_sincronica": "Siempre",
+    "consulta_profesores": "Regularmente"
+  },
+  "socioeconomico": {
+    "estrato": 3,
+    "estrato_bajo": false,
+    "trabajo": {
+      "activo": false,
+      "horas_semanales": 0
+    },
+    "dependientes_economicos": 0,
+    "dificultad_pago": "Ninguna"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "No",
+    "satisfaccion_programa": 8,
+    "probabilidad_continuar_percibida": 0.9,
+    "claridad_proposito": "Muy_claro",
+    "evento_estresante": "Ninguno"
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

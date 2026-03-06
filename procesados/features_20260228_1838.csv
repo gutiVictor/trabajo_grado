@@ -1,0 +1,15 @@
+id,programa,semestre,jornada,promedio_acumulado,promedio_ultimo,materias_perdidas,dificultad_alta,pct_creditos_aprobados,acceso_plataforma,frecuencia_semanal,frecuencia_baja,participacion_baja,no_consulta_profesores,estrato,estrato_bajo,trabaja,horas_semanales,trabaja_mucho,dependientes,dificultad_pago,dificultad_pago_alta,piensa_desertar_frecuente,piensa_desertar_alguna_vez,satisfaccion_programa,satisfaccion_baja,probabilidad_continuar_percibida,probabilidad_continuar_baja,claridad_baja,evento_estresante,indice_riesgo_academico,indice_engagement,target_desercion,fecha_procesamiento
+EST_VAR_002,Psicologia,5,Diurna,1.86,1.39,3,1,0.62,0,1,1,1,1,1,1,1,44,1,4,2,1,1,0,1,1,0.2,1,1,1,0.5,0.5,,2026-02-28T18:38:11.360977
+EST_VAR_003,Derecho,7,Virtual,2.56,1.07,6,1,0.42,0,0,1,1,1,2,1,1,41,1,3,2,1,1,0,3,1,0.2,1,1,1,0.5,0.5,,2026-02-28T18:38:11.361497
+EST_VAR_004,Administracion,4,Nocturna,2.95,3.13,1,0,0.78,1,3,0,0,0,2,1,1,23,1,1,1,0,0,1,5,0,0.5,0,0,0,0.5,0.5,,2026-02-28T18:38:11.362007
+EST_VAR_005,Administracion,8,Diurna,4.49,4.37,0,0,0.61,1,9,0,0,0,5,0,1,8,0,0,0,0,0,0,8,0,0.95,0,0,0,0.5,0.5,,2026-02-28T18:38:11.362007
+EST_VAR_006,Ingenieria_Sistemas,8,Nocturna,4.77,4.74,0,0,0.26,1,9,0,0,0,5,0,1,3,0,0,0,0,0,0,9,0,0.95,0,0,0,0.5,0.5,,2026-02-28T18:38:11.362510
+EST_VAR_007,Contaduria,10,Virtual,2.9,2.53,1,0,0.55,1,3,0,0,0,2,1,1,24,1,0,1,0,0,1,4,1,0.5,0,0,0,0.5,0.5,,2026-02-28T18:38:11.362540
+EST_VAR_008,Contaduria,2,Nocturna,3.13,3.02,1,0,0.79,1,2,1,0,0,1,1,1,27,1,1,1,0,0,1,4,1,0.5,0,0,0,0.5,0.5,,2026-02-28T18:38:11.362540
+EST_VAR_009,Ingenieria_Sistemas,8,Nocturna,3.11,3.04,2,0,0.74,1,4,0,0,0,1,1,1,24,1,2,1,0,0,1,4,1,0.5,0,0,0,0.5,0.5,,2026-02-28T18:38:11.362540
+EST_VAR_010,Psicologia,7,Virtual,4.31,4.75,0,0,0.46,1,6,0,0,0,4,0,1,2,0,0,0,0,0,0,10,0,0.95,0,0,0,0.5,0.5,,2026-02-28T18:38:11.363046
+EST_VAR_011,Derecho,1,Virtual,1.89,2.13,3,1,0.63,0,0,1,1,1,2,1,1,48,1,2,2,1,1,0,1,1,0.2,1,1,1,0.5,0.5,,2026-02-28T18:38:11.363046
+EST_VAR_012,Contaduria,2,Diurna,3.35,3.11,2,0,0.14,1,2,1,0,0,1,1,1,22,1,1,1,0,0,1,4,1,0.5,0,0,0,0.5,0.5,,2026-02-28T18:38:11.363046
+EST_VAR_013,Psicologia,5,Virtual,2.65,1.14,4,1,0.4,0,1,1,1,1,2,1,1,47,1,3,2,1,1,0,3,1,0.2,1,1,1,0.5,0.5,,2026-02-28T18:38:11.363046
+EST_VAR_014,Administracion,3,Nocturna,2.01,1.35,6,1,0.21,0,0,1,1,1,2,1,1,42,1,2,2,1,1,0,1,1,0.2,1,1,1,0.5,0.5,,2026-02-28T18:38:11.363560
+EST_VAR_015,Administracion,8,Diurna,4.61,4.41,0,0,0.37,1,8,0,0,0,3,0,1,3,0,0,0,0,0,0,9,0,0.95,0,0,0,0.5,0.5,,2026-02-28T18:38:11.363560

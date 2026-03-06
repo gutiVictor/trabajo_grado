@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "version": "1.0-MVP",
+    "fecha_creacion": "2026-02-28T18:16:46.376810",
+    "tipo_registro": "nuevo",
+    "institucion": "CUN"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_MUESTRA_031",
+    "programa": "Administracion",
+    "semestre_actual": 9,
+    "jornada": "Diurna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 3.82,
+    "promedio_ultimo_semestre": 4.2,
+    "materias_perdidas_ultimo": 0,
+    "dificultad_percibida": "Ninguna",
+    "creditos": {
+      "aprobados": 70,
+      "intentados": 100,
+      "pct_aprobados": 0.9
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": true,
+    "frecuencia_semanal": 12,
+    "participacion_sincronica": "Siempre",
+    "consulta_profesores": "Regularmente"
+  },
+  "socioeconomico": {
+    "estrato": 4,
+    "estrato_bajo": false,
+    "trabajo": {
+      "activo": true,
+      "horas_semanales": 8
+    },
+    "dependientes_economicos": 0,
+    "dificultad_pago": "Ninguna"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "No",
+    "satisfaccion_programa": 10,
+    "probabilidad_continuar_percibida": 0.9,
+    "claridad_proposito": "Muy_claro",
+    "evento_estresante": "Ninguno"
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fecha_creacion": "2026-02-28T18:28:06.689463",
+    "tipo_registro": "HISTORICO"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_HISTORICO_034",
+    "programa": "Administracion",
+    "semestre_actual": 7,
+    "jornada": "Diurna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 2.09,
+    "promedio_ultimo_semestre": 1.9499999999999997,
+    "materias_perdidas_ultimo": 6,
+    "dificultad_percibida": "Mucha",
+    "creditos": {
+      "aprobados": 40,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": false,
+    "frecuencia_semanal": 2
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "trabajo": {
+      "activo": true,
+      "horas_semanales": 40
+    },
+    "dificultad_pago": "Graves"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_frecuentemente",
+    "satisfaccion_programa": 3,
+    "probabilidad_continuar_percibida": 0.2
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": 0
+  }
+}

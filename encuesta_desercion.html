@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Seguimiento Estudiantil - CUN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #0f172a;
+            --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            --glass: rgba(255, 255, 255, 0.95);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --success: #10b981;
+            --error: #ef4444;
+            --radius: 16px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: var(--radius);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--glass-border);
+            overflow: hidden;
+            animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .header {
+            background: var(--secondary);
+            color: white;
+            padding: 45px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .header h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        
+        .header p {
+            color: #94a3b8;
+            font-size: 15px;
+            font-weight: 400;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .progress-bar {
+            height: 6px;
+            background: #f1f5f9;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--primary);
+            width: 0%;
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+        }
+        
+        .form-container {
+            padding: 40px 50px;
+        }
+
+        @media (max-width: 640px) {
+            .form-container { padding: 30px 20px; }
+            body { padding: 20px 10px; }
+        }
+        
+        .section {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .section.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.98); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .section-title {
+            color: var(--secondary);
+            font-family: 'Outfit', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-title::after {
+            content: '';
+            flex: 1;
+            height: 2px;
+            background: #f1f5f9;
+        }
+        
+        .form-group {
+            margin-bottom: 28px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 14.5px;
+        }
+        
+        .required::after {
+            content: " *";
+            color: var(--error);
+        }
+        
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 15px;
+            color: var(--text-main);
+            transition: all 0.2s;
+            background: #fff;
+        }
+        
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+            background: #fff;
+        }
+        
+        .radio-group {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        @media (min-width: 768px) {
+            .radio-group:not(.vertical) {
+                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            }
+        }
+        
+        .radio-option {
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            border: 2px solid #f1f5f9;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            background: #fff;
+            user-select: none;
+        }
+        
+        .radio-option:hover {
+            border-color: var(--primary);
+            background: #fafafa;
+            transform: translateY(-1px);
+        }
+        
+        .radio-option.selected {
+            border-color: var(--primary);
+            background: rgba(99, 102, 241, 0.04);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+        }
+        
+        input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 14px;
+            accent-color: var(--primary);
+            cursor: pointer;
+        }
+
+        .radio-option span {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-main);
+        }
+        
+        .slider-container {
+            padding: 20px 0;
+        }
+        
+        .slider {
+            width: 100%;
+            height: 8px;
+            border-radius: 10px;
+            background: #f1f5f9;
+            outline: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+        
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: var(--primary);
+            cursor: pointer;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+            transition: transform 0.2s;
+        }
+
+        .slider::-webkit-slider-thumb:hover {
+            transform: scale(1.15);
+        }
+        
+        .slider-value {
+            text-align: center;
+            font-family: 'Outfit', sans-serif;
+            font-size: 36px;
+            font-weight: 800;
+            color: var(--primary);
+            margin: 10px 0;
+            text-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 16px;
+            margin-top: 40px;
+        }
+        
+        button {
+            flex: 1;
+            padding: 16px 24px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-family: 'Outfit', sans-serif;
+        }
+        
+        .btn-prev {
+            background: #f1f5f9;
+            color: var(--text-muted);
+        }
+        
+        .btn-prev:hover {
+            background: #e2e8f0;
+            color: var(--secondary);
+        }
+        
+        .btn-next,
+        .btn-submit {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 10px 20px -10px rgba(99, 102, 241, 0.4);
+        }
+        
+        .btn-next:hover,
+        .btn-submit:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 15px 25px -10px rgba(99, 102, 241, 0.5);
+        }
+        
+        .result-container {
+            display: none;
+            text-align: center;
+            padding: 60px 40px;
+            animation: fadeIn 0.8s ease;
+        }
+        
+        .result-icon {
+            font-size: 80px;
+            margin-bottom: 24px;
+            filter: drop-shadow(0 10px 20px rgba(99, 102, 241, 0.2));
+        }
+        
+        .result-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 32px;
+            color: var(--secondary);
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        
+        .result-message {
+            color: var(--text-muted);
+            font-size: 17px;
+            max-width: 500px;
+            margin: 0 auto 35px;
+        }
+        
+        .info-box {
+            background: rgba(99, 102, 241, 0.05);
+            border-left: 5px solid var(--primary);
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+        }
+        
+        .info-box p {
+            color: var(--secondary);
+            font-size: 13.5px;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-success { background: var(--success); color: white; }
+        .btn-secondary { background: var(--secondary); color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Sistema de Seguimiento Estudiantil</h1>
+            <p>Corporación Unificada Nacional de Educación Superior - CUN</p>
+            <p style="font-size: 12px; margin-top: 10px;">Especialización en Ingeniería de Sistemas - Proyecto de Investigación</p>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        
+        <form id="encuestaForm" class="form-container">
+            
+            <!-- SECCIÓN 0: IDENTIFICACIÓN -->
+            <div class="section active" data-section="0">
+                <h2 class="section-title">🔐 Identificación del Estudiante</h2>
+                
+                <div class="info-box">
+                    <p><strong>Información importante:</strong> Esta encuesta es anónima. Su código de estudiante se utilizará únicamente para fines de investigación académica, siguiendo los protocolos de protección de datos personales (Ley 1581 de 2012).</p>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">Código de estudiante (anónimo)</label>
+                    <input type="text" id="estudiante_id" placeholder="Ej: EST_2024_001" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">Programa académico</label>
+                    <select id="programa" required>
+                        <option value="">Seleccione su programa</option>
+                        <option value="Ingenieria_Sistemas">Ingeniería de Sistemas</option>
+                        <option value="Ingenieria_Industrial">Ingeniería Industrial</option>
+                        <option value="Administracion">Administración de Empresas</option>
+                        <option value="Contaduria">Contaduría Pública</option>
+                        <option value="Derecho">Derecho</option>
+                        <option value="Psicologia">Psicología</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">Semestre actual</label>
+                    <input type="number" id="semestre" min="1" max="20" placeholder="Ej: 4" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">Jornada</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="jornada" value="Diurna" required>
+                            <span>Diurna</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="jornada" value="Nocturna">
+                            <span>Nocturna</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="jornada" value="Virtual">
+                            <span>Virtual</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="buttons">
+                    <button type="button" class="btn-next" onclick="nextSection()">Continuar →</button>
+                </div>
+            </div>
+            
+            <!-- SECCIÓN 1: INFORMACIÓN ACADÉMICA -->
+            <div class="section" data-section="1">
+                <h2 class="section-title">📚 Información Académica</h2>
+                
+                <div class="form-group">
+                    <label class="required">Promedio acumulado actual (0.0 - 5.0)</label>
+                    <input type="number" id="promedio_acumulado" min="0" max="5" step="0.1" placeholder="Ej: 3.5" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">Promedio del semestre anterior</label>
+                    <input type="number" id="promedio_ultimo" min="0" max="5" step="0.1" placeholder="Ej: 3.2" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Cuántas materias perdió el semestre pasado?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="materias_perdidas" value="0" required>
+                            <span>Ninguna</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="materias_perdidas" value="1">
+                            <span>1 materia</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="materias_perdidas" value="2">
+                            <span>2 materias</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="materias_perdidas" value="3">
+                            <span>3 o más materias</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Qué tan difícil le están pareciendo las materias este semestre?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="dificultad_actual" value="Ninguna" required>
+                            <span>Nada difícil</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="dificultad_actual" value="Poca">
+                            <span>Poco difícil</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="dificultad_actual" value="Algo">
+                            <span>Algo difícil</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="dificultad_actual" value="Mucha">
+                            <span>Muy difícil</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Cuántos créditos ha aprobado hasta ahora?</label>
+                    <input type="number" id="creditos_aprobados" min="0" max="200" placeholder="Ej: 45" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Cuántos créditos ha intentado en total (aprobados + perdidos)?</label>
+                    <input type="number" id="creditos_intentados" min="0" max="200" placeholder="Ej: 60" required>
+                </div>
+                
+                <div class="buttons">
+                    <button type="button" class="btn-prev" onclick="prevSection()">← Anterior</button>
+                    <button type="button" class="btn-next" onclick="nextSection()">Continuar →</button>
+                </div>
+            </div>
+            
+            <!-- SECCIÓN 2: ENGAGEMENT Y USO DE PLATAFORMAS -->
+            <div class="section" data-section="2">
+                <h2 class="section-title">💻 Uso de Plataformas Virtuales</h2>
+                
+                <div class="form-group">
+                    <label class="required">¿Ha ingresado a la plataforma virtual (Canvas/Moodle) en el último mes?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="acceso_mes" value="true" required>
+                            <span>Sí, regularmente</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="acceso_mes" value="false">
+                            <span>No, hace más de un mes</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group" id="grupo_frecuencia">
+                    <label>¿Aproximadamente cuántas veces por semana accede?</label>
+                    <input type="number" id="frecuencia_semanal" min="0" max="50" placeholder="Ej: 5">
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Participa en las actividades virtuales sincrónicas (clases en vivo)?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="participacion_sincronica" value="Siempre" required>
+                            <span>Sí, siempre o casi siempre</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="participacion_sincronica" value="A_veces">
+                            <span>A veces</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="participacion_sincronica" value="Nunca">
+                            <span>Casi nunca o nunca</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Descarga los materiales de clase?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="descarga_materiales" value="Regularmente" required>
+                            <span>Regularmente</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="descarga_materiales" value="Ocasionalmente">
+                            <span>Ocasionalmente</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="descarga_materiales" value="Nunca">
+                            <span>Casi nunca</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Ha consultado a sus profesores fuera de clase (correo, foro, mensaje)?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="consulta_profesores" value="Regularmente" required>
+                            <span>Sí, regularmente</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="consulta_profesores" value="1-2_veces">
+                            <span>1 o 2 veces</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="consulta_profesores" value="Nunca">
+                            <span>No he consultado</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="buttons">
+                    <button type="button" class="btn-prev" onclick="prevSection()">← Anterior</button>
+                    <button type="button" class="btn-next" onclick="nextSection()">Continuar →</button>
+                </div>
+            </div>
+            
+            <!-- SECCIÓN 3: SITUACIÓN SOCIOECONÓMICA -->
+            <div class="section" data-section="3">
+                <h2 class="section-title">🏠 Situación Socioeconómica y Personal</h2>
+                
+                <div class="form-group">
+                    <label class="required">Estrato socioeconómico de su residencia</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="estrato" value="1" required>
+                            <span>Estrato 1</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="estrato" value="2">
+                            <span>Estrato 2</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="estrato" value="3">
+                            <span>Estrato 3</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="estrato" value="4">
+                            <span>Estrato 4</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="estrato" value="5">
+                            <span>Estrato 5</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="estrato" value="6">
+                            <span>Estrato 6</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Trabaja actualmente?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="trabaja" value="No" required>
+                            <span>No trabajo</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="trabaja" value="Medio_tiempo">
+                            <span>Sí, medio tiempo (menos de 30h semanales)</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="trabaja" value="Tiempo_completo">
+                            <span>Sí, tiempo completo (30h o más semanales)</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group" id="grupo_horas_trabajo">
+                    <label>¿Cuántas horas semanales trabaja aproximadamente?</label>
+                    <input type="number" id="horas_trabajo" min="0" max="80" placeholder="Ej: 20">
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Tiene personas que dependen económicamente de usted?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="dependientes" value="0" required>
+                            <span>Nadie</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="dependientes" value="1">
+                            <span>1 persona</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="dependientes" value="2">
+                            <span>2 personas</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="dependientes" value="3">
+                            <span>3 o más personas</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Ha tenido dificultades para pagar sus matrículas?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="dificultad_pago" value="Ninguna" required>
+                            <span>Ninguna dificultad</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="dificultad_pago" value="Algunas">
+                            <span>Algunas dificultades</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="dificultad_pago" value="Graves">
+                            <span>Dificultades graves</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="buttons">
+                    <button type="button" class="btn-prev" onclick="prevSection()">← Anterior</button>
+                    <button type="button" class="btn-next" onclick="nextSection()">Continuar →</button>
+                </div>
+            </div>
+            
+            <!-- SECCIÓN 4: INTENCIONALIDAD (CRÍTICA) -->
+            <div class="section" data-section="4">
+                <h2 class="section-title">🎯 Situación Personal y Motivación</h2>
+                
+                <div class="form-group">
+                    <label class="required">¿Ha pasado por alguna situación estresante recientemente?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="evento_estresante" value="Ninguno" required>
+                            <span>Ninguna situación particular</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="evento_estresante" value="Desempleo_personal">
+                            <span>Perdí mi empleo</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="evento_estresante" value="Desempleo_familiar">
+                            <span>Familiar cercano perdió su empleo</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="evento_estresante" value="Problemas_salud">
+                            <span>Problemas de salud (propios o familiares)</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="evento_estresante" value="Otro">
+                            <span>Otra situación difícil</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Qué tan claro tiene el propósito de su carrera?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="claridad_proposito" value="Muy_claro" required>
+                            <span>Muy claro - sé exactamente por qué estudio esto</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="claridad_proposito" value="Algo_claro">
+                            <span>Algo claro - tengo una idea general</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="claridad_proposito" value="Poco_claro">
+                            <span>Poco claro - a veces dudo si es lo correcto</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="claridad_proposito" value="Nada_claro">
+                            <span>Nada claro - no estoy seguro de querer continuar</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Ha pensado seriamente en dejar sus estudios?</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="piensa_desertar" value="No" required>
+                            <span>No, nunca he pensado en dejar</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="piensa_desertar" value="Si_alguna_vez">
+                            <span>Sí, alguna vez lo he considerado</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="piensa_desertar" value="Si_frecuentemente">
+                            <span>Sí, frecuentemente pienso en dejar</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">¿Qué tan satisfecho está con su programa académico?</label>
+                    <div class="slider-container">
+                        <input type="range" min="0" max="10" value="5" class="slider" id="satisfaccion_slider" oninput="updateSliderValue(this.value)">
+                        <div class="slider-value" id="sliderValue">5</div>
+                        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #6b7280; margin-top: 5px;">
+                            <span>0 - Muy insatisfecho</span>
+                            <span>10 - Muy satisfecho</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="required">Del 0 al 10, ¿qué tan probable es que se matricule el próximo semestre?</label>
+                    <div class="slider-container">
+                        <input type="range" min="0" max="10" value="8" class="slider" id="probabilidad_slider" oninput="updateSliderValue2(this.value)">
+                        <div class="slider-value" id="sliderValue2">8</div>
+                        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #6b7280; margin-top: 5px;">
+                            <span>0 - Imposible</span>
+                            <span>10 - Totalmente seguro</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="buttons">
+                    <button type="button" class="btn-prev" onclick="prevSection()">← Anterior</button>
+                    <button type="button" class="btn-submit" onclick="submitForm()">Enviar Encuesta ✓</button>
+                </div>
+            </div>
+            
+        </form>
+        
+        <!-- RESULTADO -->
+        <div class="result-container" id="resultContainer">
+            <div class="result-icon" id="resultIcon">📊</div>
+            <h2 class="result-title" id="resultTitle">¡Gracias por participar!</h2>
+            <p class="result-message" id="resultMessage">Su información ha sido registrada de forma anónima y será utilizada para mejorar los programas de acompañamiento estudiantil.</p>
+            
+            <div class="action-buttons">
+                <button onclick="descargarJSON()" class="btn-success">
+                    📥 Descargar Datos (JSON)
+                </button>
+                <button onclick="nuevaEncuesta()" class="btn-secondary">
+                    🔄 Nueva Encuesta
+                </button>
+            </div>
+            
+            <div class="json-output" id="jsonOutput" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        let currentSection = 0;
+        const totalSections = 5;
+        let formData = {};
+        
+        // Inicializar
+        document.addEventListener('DOMContentLoaded', function() {
+            updateProgress();
+            
+            // Radio button styling
+            document.querySelectorAll('input[type="radio"]').forEach(radio => {
+                radio.addEventListener('change', function() {
+                    const name = this.name;
+                    document.querySelectorAll(`input[name="${name}"]`).forEach(r => {
+                        r.closest('.radio-option').classList.remove('selected');
+                    });
+                    this.closest('.radio-option').classList.add('selected');
+                });
+            });
+            
+            // Mostrar/ocultar campos condicionales
+            document.querySelectorAll('input[name="acceso_mes"]').forEach(radio => {
+                radio.addEventListener('change', function() {
+                    document.getElementById('grupo_frecuencia').style.display = 
+                        this.value === 'true' ? 'block' : 'none';
+                });
+            });
+            
+            document.querySelectorAll('input[name="trabaja"]').forEach(radio => {
+                radio.addEventListener('change', function() {
+                    document.getElementById('grupo_horas_trabajo').style.display = 
+                        this.value !== 'No' ? 'block' : 'none';
+                });
+            });
+        });
+        
+        function updateProgress() {
+            const progress = ((currentSection + 1) / totalSections) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+        }
+        
+        function updateSliderValue(val) {
+            document.getElementById('sliderValue').textContent = val;
+        }
+        
+        function updateSliderValue2(val) {
+            document.getElementById('sliderValue2').textContent = val;
+        }
+        
+        function validateSection(sectionNum) {
+            const section = document.querySelector(`.section[data-section="${sectionNum}"]`);
+            const required = section.querySelectorAll('[required]');
+            
+            for (let field of required) {
+                if (field.type === 'radio') {
+                    const name = field.name;
+                    const checked = section.querySelector(`input[name="${name}"]:checked`);
+                    if (!checked) {
+                        alert('Por favor complete todas las preguntas obligatorias');
+                        return false;
+                    }
+                } else if (!field.value.trim()) {
+                    field.focus();
+                    alert('Por favor complete todos los campos obligatorios');
+                    return false;
+                }
+            }
+            return true;
+        }
+        
+        function nextSection() {
+            if (!validateSection(currentSection)) return;
+            
+            // Guardar datos de sección actual
+            guardarDatosSeccion(currentSection);
+            
+            document.querySelector(`.section[data-section="${currentSection}"]`).classList.remove('active');
+            currentSection++;
+            document.querySelector(`.section[data-section="${currentSection}"]`).classList.add('active');
+            updateProgress();
+        }
+        
+        function prevSection() {
+            document.querySelector(`.section[data-section="${currentSection}"]`).classList.remove('active');
+            currentSection--;
+            document.querySelector(`.section[data-section="${currentSection}"]`).classList.add('active');
+            updateProgress();
+        }
+        
+        function guardarDatosSeccion(section) {
+            const sectionElement = document.querySelector(`.section[data-section="${section}"]`);
+            const inputs = sectionElement.querySelectorAll('input, select');
+            
+            inputs.forEach(input => {
+                if (input.type === 'radio') {
+                    if (input.checked) {
+                        formData[input.name] = input.value;
+                    }
+                } else {
+                    formData[input.id || input.name] = input.value;
+                }
+            });
+        }
+        
+        function submitForm() {
+            if (!validateSection(currentSection)) return;
+            guardarDatosSeccion(currentSection);
+            
+            // Construir JSON final
+            const jsonFinal = construirJSON();
+            
+            // Mostrar resultado
+            document.getElementById('encuestaForm').style.display = 'none';
+            document.querySelector('.progress-bar').style.display = 'none';
+            document.getElementById('resultContainer').style.display = 'block';
+            
+            // Guardar para descarga
+            window.jsonData = jsonFinal;
+            
+            // Mostrar JSON en pantalla (opcional)
+            document.getElementById('jsonOutput').textContent = JSON.stringify(jsonFinal, null, 2);
+        }
+        
+        function construirJSON() {
+            const ahora = new Date();
+            
+            return {
+                metadata: {
+                    version: "1.0-MVP",
+                    fecha_creacion: ahora.toISOString(),
+                    tipo_registro: "encuesta",
+                    institucion: "CUN",
+                    semestre_encuesta: "2024-1"
+                },
+                
+                identificacion: {
+                    id_anonimo: formData.estudiante_id || "EST_DESCONOCIDO",
+                    programa: formData.programa,
+                    semestre_actual: parseInt(formData.semestre),
+                    jornada: formData.jornada,
+                    fecha_registro: ahora.toISOString().split('T')[0]
+                },
+                
+                datos_academicos: {
+                    promedio_acumulado: parseFloat(formData.promedio_acumulado),
+                    promedio_ultimo_semestre: parseFloat(formData.promedio_ultimo),
+                    materias_perdidas_ultimo: parseInt(formData.materias_perdidas),
+                    dificultad_percibida: formData.dificultad_actual,
+                    creditos: {
+                        aprobados: parseInt(formData.creditos_aprobados) || 0,
+                        intentados: parseInt(formData.creditos_intentados) || 0,
+                        pct_aprobados: parseInt(formData.creditos_aprobados) / parseInt(formData.creditos_intentados) || 0
+                    }
+                },
+                
+                engagement: {
+                    acceso_plataforma_mes: formData.acceso_mes === 'true',
+                    frecuencia_semanal: parseInt(formData.frecuencia_semanal) || 0,
+                    participacion_sincronica: formData.participacion_sincronica,
+                    descarga_materiales: formData.descarga_materiales,
+                    consulta_profesores: formData.consulta_profesores
+                },
+                
+                socioeconomico: {
+                    estrato: parseInt(formData.estrato),
+                    estrato_bajo: parseInt(formData.estrato) <= 2,
+                    trabajo: {
+                        activo: formData.trabaja !== 'No',
+                        tipo: formData.trabaja,
+                        horas_semanales: parseInt(formData.horas_trabajo) || 0
+                    },
+                    dependientes_economicos: parseInt(formData.dependientes),
+                    dificultad_pago: formData.dificultad_pago
+                },
+                
+                intencionalidad: {
+                    evento_estresante: formData.evento_estresante,
+                    claridad_proposito: formData.claridad_proposito,
+                    piensa_desertar: formData.piensa_desertar,
+                    frecuencia_pensamiento_desercion: formData.piensa_desertar === 'No' ? 0 : 
+                                                      formData.piensa_desertar === 'Si_alguna_vez' ? 1 : 2,
+                    satisfaccion_programa: parseInt(document.getElementById('satisfaccion_slider').value),
+                    probabilidad_continuar_percibida: parseInt(document.getElementById('probabilidad_slider').value) / 10
+                },
+                
+                calculos_derivados: {
+                    indice_riesgo_academico_preliminar: calcularRiesgoAcademico(),
+                    indice_engagement: calcularEngagement(),
+                    alerta_manual: formData.piensa_desertar === 'Si_frecuentemente' || 
+                                  parseFloat(formData.promedio_ultimo) < 3.0
+                }
+            };
+        }
+        
+        function calcularRiesgoAcademico() {
+            let riesgo = 0;
+            const promedio = parseFloat(formData.promedio_ultimo);
+            const materias = parseInt(formData.materias_perdidas);
+            const dificultad = formData.dificultad_actual;
+            
+            if (promedio < 3.0) riesgo += 0.4;
+            else if (promedio < 3.5) riesgo += 0.2;
+            
+            if (materias >= 2) riesgo += 0.3;
+            else if (materias === 1) riesgo += 0.15;
+            
+            if (dificultad === 'Mucha') riesgo += 0.3;
+            else if (dificultad === 'Algo') riesgo += 0.15;
+            
+            return Math.min(riesgo, 1.0);
+        }
+        
+        function calcularEngagement() {
+            let engagement = 0.5;
+            
+            if (formData.acceso_mes === 'false') engagement -= 0.3;
+            if (formData.participacion_sincronica === 'Nunca') engagement -= 0.2;
+            if (formData.consulta_profesores === 'Nunca') engagement -= 0.1;
+            if (formData.descarga_materiales === 'Nunca') engagement -= 0.1;
+            
+            return Math.max(0, Math.min(1, engagement));
+        }
+        
+        function descargarJSON() {
+            const dataStr = JSON.stringify(window.jsonData, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(dataBlob);
+            link.download = `encuesta_${window.jsonData.identificacion.id_anonimo}_${Date.now()}.json`;
+            link.click();
+            
+            // Mostrar el JSON en pantalla también
+            document.getElementById('jsonOutput').style.display = 'block';
+        }
+        
+        function nuevaEncuesta() {
+            location.reload();
+        }
+    </script>
+</body>
+</html>

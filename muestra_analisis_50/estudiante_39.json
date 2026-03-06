@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "version": "1.0-MVP",
+    "fecha_creacion": "2026-02-28T18:16:46.380384",
+    "tipo_registro": "nuevo",
+    "institucion": "CUN"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_MUESTRA_039",
+    "programa": "Derecho",
+    "semestre_actual": 2,
+    "jornada": "Nocturna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 2.36,
+    "promedio_ultimo_semestre": 2.34,
+    "materias_perdidas_ultimo": 4,
+    "dificultad_percibida": "Mucha",
+    "creditos": {
+      "aprobados": 74,
+      "intentados": 100,
+      "pct_aprobados": 0.5
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": false,
+    "frecuencia_semanal": 2,
+    "participacion_sincronica": "Nunca",
+    "consulta_profesores": "Nunca"
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "estrato_bajo": true,
+    "trabajo": {
+      "activo": true,
+      "horas_semanales": 33
+    },
+    "dependientes_economicos": 1,
+    "dificultad_pago": "Algunas"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_frecuentemente",
+    "satisfaccion_programa": 4,
+    "probabilidad_continuar_percibida": 0.3,
+    "claridad_proposito": "Nada_claro",
+    "evento_estresante": "Ninguno"
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

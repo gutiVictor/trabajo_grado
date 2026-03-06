@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "version": "1.0-MVP",
+    "fecha_creacion": "2026-02-28T22:23:41.612Z",
+    "tipo_registro": "encuesta",
+    "institucion": "CUN",
+    "semestre_encuesta": "2024-1"
+  },
+  "identificacion": {
+    "id_anonimo": "Victor",
+    "programa": "Ingenieria_Sistemas",
+    "semestre_actual": 4,
+    "jornada": "Virtual",
+    "fecha_registro": "2026-02-28"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 3,
+    "promedio_ultimo_semestre": 3.5,
+    "materias_perdidas_ultimo": 0,
+    "dificultad_percibida": "Algo",
+    "creditos": {
+      "aprobados": 35,
+      "intentados": 40,
+      "pct_aprobados": 0.875
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": false,
+    "frecuencia_semanal": 0,
+    "participacion_sincronica": "A_veces",
+    "descarga_materiales": "Ocasionalmente",
+    "consulta_profesores": "Nunca"
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "estrato_bajo": true,
+    "trabajo": {
+      "activo": true,
+      "tipo": "Medio_tiempo",
+      "horas_semanales": 0
+    },
+    "dependientes_economicos": 2,
+    "dificultad_pago": "Algunas"
+  },
+  "intencionalidad": {
+    "evento_estresante": "Ninguno",
+    "claridad_proposito": "Muy_claro",
+    "piensa_desertar": "Si_alguna_vez",
+    "frecuencia_pensamiento_desercion": 1,
+    "satisfaccion_programa": 6,
+    "probabilidad_continuar_percibida": 0.8
+  },
+  "calculos_derivados": {
+    "indice_riesgo_academico_preliminar": 0.15,
+    "indice_engagement": 0.1,
+    "alerta_manual": false
+  }
+}

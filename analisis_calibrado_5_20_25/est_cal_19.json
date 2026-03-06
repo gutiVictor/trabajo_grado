@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "2.0-CALIBRADO",
+    "fecha_creacion": "2026-02-28T18:52:01.964982"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_CAL_019",
+    "programa": "Contaduria",
+    "semestre_actual": 6,
+    "jornada": "Virtual"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 1.96,
+    "promedio_ultimo_semestre": 1.76,
+    "materias_perdidas_ultimo": 7,
+    "dificultad_percibida": "Mucha",
+    "creditos": {
+      "aprobados": 30,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": false,
+    "frecuencia_semanal": 2
+  },
+  "socioeconomico": {
+    "estrato": 1,
+    "trabajo": {
+      "activo": true,
+      "horas_semanales": 48
+    },
+    "dificultad_pago": "Graves"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_frecuentemente",
+    "satisfaccion_programa": 2,
+    "probabilidad_continuar_percibida": 0.1
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

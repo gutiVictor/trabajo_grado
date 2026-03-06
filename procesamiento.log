@@ -1,0 +1,1563 @@
+2026-02-28 17:34:34,129 - INFO - ============================================================
+2026-02-28 17:34:34,129 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 17:34:34,130 - INFO - ============================================================
+2026-02-28 17:34:34,754 - INFO - ------------------------------------------------------------
+2026-02-28 17:34:34,755 - INFO - Procesando lote 1/2...
+2026-02-28 17:34:34,882 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 17:34:34,993 - INFO - ============================================================
+2026-02-28 17:34:34,993 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 17:34:34,993 - INFO - ============================================================
+2026-02-28 17:34:35,007 - INFO - ============================================================
+2026-02-28 17:34:35,010 - INFO - Programas: 8
+2026-02-28 17:34:35,011 - INFO - Con target (históricos): 100
+2026-02-28 17:34:35,011 - INFO - Sin target (nuevos): 0
+2026-02-28 17:34:38,840 - INFO - ============================================================
+2026-02-28 17:34:38,840 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 17:34:38,840 - INFO - ============================================================
+2026-02-28 17:34:38,841 - INFO - Datos de entrenamiento: 100 registros
+2026-02-28 17:34:38,842 - INFO - Distribución: 58 permanecen, 42 desertan
+2026-02-28 17:34:38,844 - INFO - Features utilizadas: 28
+2026-02-28 17:34:38,846 - INFO - Entrenando Random Forest...
+2026-02-28 17:34:39,115 - INFO - 
+Reporte de clasificación:
+2026-02-28 17:34:39,120 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00        12
+     Deserta       1.00      1.00      1.00         8
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2026-02-28 17:34:39,140 - INFO -   indice_riesgo_academico: 0.171
+2026-02-28 17:34:39,141 - INFO -   promedio_acumulado: 0.148
+2026-02-28 17:34:39,141 - INFO -   pct_creditos_aprobados: 0.145
+2026-02-28 17:34:39,141 - INFO -   probabilidad_continuar_baja: 0.128
+2026-02-28 17:34:39,142 - INFO -   promedio_ultimo: 0.114
+2026-02-28 17:34:39,142 - INFO -   satisfaccion_programa: 0.094
+2026-02-28 17:34:39,142 - INFO -   indice_engagement: 0.047
+2026-02-28 17:34:39,142 - INFO -   materias_perdidas: 0.040
+2026-02-28 17:34:39,142 - INFO -   frecuencia_semanal: 0.019
+2026-02-28 17:34:39,143 - INFO -   trabaja: 0.017
+2026-02-28 17:34:39,151 - INFO - No hay registros nuevos para predecir
+2026-02-28 17:49:08,206 - INFO - ============================================================
+2026-02-28 17:49:08,206 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 17:49:08,206 - INFO - ============================================================
+2026-02-28 17:49:08,211 - INFO - ------------------------------------------------------------
+2026-02-28 17:49:08,211 - INFO - Procesando lote 1/2...
+2026-02-28 17:49:08,374 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 17:49:08,476 - INFO - ============================================================
+2026-02-28 17:49:08,476 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 17:49:08,476 - INFO - ============================================================
+2026-02-28 17:49:08,480 - INFO - ============================================================
+2026-02-28 17:49:08,482 - INFO - Programas: 8
+2026-02-28 17:49:08,482 - INFO - Con target (históricos): 100
+2026-02-28 17:49:08,482 - INFO - Sin target (nuevos): 0
+2026-02-28 17:49:09,216 - INFO - ============================================================
+2026-02-28 17:49:09,216 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 17:49:09,216 - INFO - ============================================================
+2026-02-28 17:49:09,216 - INFO - Datos de entrenamiento: 100 registros
+2026-02-28 17:49:09,217 - INFO - Distribución: 58 permanecen, 42 desertan
+2026-02-28 17:49:09,218 - INFO - Features utilizadas: 28
+2026-02-28 17:49:09,219 - INFO - Entrenando Random Forest...
+2026-02-28 17:49:09,483 - INFO - 
+Reporte de clasificación:
+2026-02-28 17:49:09,487 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00        12
+     Deserta       1.00      1.00      1.00         8
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2026-02-28 17:49:09,504 - INFO -   indice_riesgo_academico: 0.171
+2026-02-28 17:49:09,504 - INFO -   promedio_acumulado: 0.148
+2026-02-28 17:49:09,504 - INFO -   pct_creditos_aprobados: 0.145
+2026-02-28 17:49:09,504 - INFO -   probabilidad_continuar_baja: 0.128
+2026-02-28 17:49:09,504 - INFO -   promedio_ultimo: 0.114
+2026-02-28 17:49:09,504 - INFO -   satisfaccion_programa: 0.094
+2026-02-28 17:49:09,504 - INFO -   indice_engagement: 0.047
+2026-02-28 17:49:09,505 - INFO -   materias_perdidas: 0.040
+2026-02-28 17:49:09,505 - INFO -   frecuencia_semanal: 0.019
+2026-02-28 17:49:09,505 - INFO -   trabaja: 0.017
+2026-02-28 17:49:09,510 - INFO - No hay registros nuevos para predecir
+2026-02-28 17:49:22,052 - INFO - ============================================================
+2026-02-28 17:49:22,053 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 17:49:22,053 - INFO - ============================================================
+2026-02-28 17:49:22,058 - INFO - ------------------------------------------------------------
+2026-02-28 17:49:22,058 - INFO - Procesando lote 1/2...
+2026-02-28 17:49:22,197 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 17:49:22,300 - INFO - ============================================================
+2026-02-28 17:49:22,300 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 17:49:22,300 - INFO - ============================================================
+2026-02-28 17:49:22,304 - INFO - ============================================================
+2026-02-28 17:49:22,305 - INFO - Programas: 8
+2026-02-28 17:49:22,305 - INFO - Con target (históricos): 100
+2026-02-28 17:49:22,305 - INFO - Sin target (nuevos): 0
+2026-02-28 17:49:23,036 - INFO - ============================================================
+2026-02-28 17:49:23,036 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 17:49:23,036 - INFO - ============================================================
+2026-02-28 17:49:23,036 - INFO - Datos de entrenamiento: 100 registros
+2026-02-28 17:49:23,037 - INFO - Distribución: 58 permanecen, 42 desertan
+2026-02-28 17:49:23,037 - INFO - Features utilizadas: 28
+2026-02-28 17:49:23,039 - INFO - Entrenando Random Forest...
+2026-02-28 17:49:23,312 - INFO - 
+Reporte de clasificación:
+2026-02-28 17:49:23,318 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00        12
+     Deserta       1.00      1.00      1.00         8
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2026-02-28 17:49:23,347 - INFO -   indice_riesgo_academico: 0.171
+2026-02-28 17:49:23,347 - INFO -   promedio_acumulado: 0.148
+2026-02-28 17:49:23,347 - INFO -   pct_creditos_aprobados: 0.145
+2026-02-28 17:49:23,347 - INFO -   probabilidad_continuar_baja: 0.128
+2026-02-28 17:49:23,347 - INFO -   promedio_ultimo: 0.114
+2026-02-28 17:49:23,347 - INFO -   satisfaccion_programa: 0.094
+2026-02-28 17:49:23,347 - INFO -   indice_engagement: 0.047
+2026-02-28 17:49:23,348 - INFO -   materias_perdidas: 0.040
+2026-02-28 17:49:23,348 - INFO -   frecuencia_semanal: 0.019
+2026-02-28 17:49:23,348 - INFO -   trabaja: 0.017
+2026-02-28 17:49:23,354 - INFO - No hay registros nuevos para predecir
+2026-02-28 17:49:23,354 - INFO - 
+============================================================
+2026-02-28 17:49:23,354 - INFO - PROCESO COMPLETADO
+2026-02-28 17:49:23,354 - INFO - ============================================================
+2026-02-28 17:56:14,432 - INFO - ============================================================
+2026-02-28 17:56:14,433 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 17:56:14,433 - INFO - ============================================================
+2026-02-28 17:56:15,062 - INFO - ------------------------------------------------------------
+2026-02-28 17:56:15,062 - INFO - Procesando lote 1/2...
+2026-02-28 17:56:15,180 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 17:56:15,294 - INFO - ============================================================
+2026-02-28 17:56:15,294 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 17:56:15,294 - INFO - ============================================================
+2026-02-28 17:56:15,298 - INFO - ============================================================
+2026-02-28 17:56:15,299 - INFO - Programas: 8
+2026-02-28 17:56:15,299 - INFO - Con target (históricos): 100
+2026-02-28 17:56:15,299 - INFO - Sin target (nuevos): 0
+2026-02-28 17:56:16,013 - INFO - ============================================================
+2026-02-28 17:56:16,013 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 17:56:16,014 - INFO - ============================================================
+2026-02-28 17:56:16,014 - INFO - Datos de entrenamiento: 100 registros
+2026-02-28 17:56:16,014 - INFO - Distribución: 58 permanecen, 42 desertan
+2026-02-28 17:56:16,015 - INFO - Features utilizadas: 28
+2026-02-28 17:56:16,017 - INFO - Entrenando Random Forest...
+2026-02-28 17:56:16,261 - INFO - 
+Reporte de clasificación:
+2026-02-28 17:56:16,266 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00        12
+     Deserta       1.00      1.00      1.00         8
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2026-02-28 17:56:16,283 - INFO -   indice_riesgo_academico: 0.171
+2026-02-28 17:56:16,283 - INFO -   promedio_acumulado: 0.148
+2026-02-28 17:56:16,283 - INFO -   pct_creditos_aprobados: 0.145
+2026-02-28 17:56:16,283 - INFO -   probabilidad_continuar_baja: 0.128
+2026-02-28 17:56:16,283 - INFO -   promedio_ultimo: 0.114
+2026-02-28 17:56:16,283 - INFO -   satisfaccion_programa: 0.094
+2026-02-28 17:56:16,283 - INFO -   indice_engagement: 0.047
+2026-02-28 17:56:16,283 - INFO -   materias_perdidas: 0.040
+2026-02-28 17:56:16,284 - INFO -   frecuencia_semanal: 0.019
+2026-02-28 17:56:16,284 - INFO -   trabaja: 0.017
+2026-02-28 17:56:16,289 - INFO - No hay registros nuevos para predecir
+2026-02-28 17:56:16,289 - INFO - 
+============================================================
+2026-02-28 17:56:16,289 - INFO - PROCESO COMPLETADO
+2026-02-28 17:56:16,289 - INFO - ============================================================
+2026-02-28 17:56:37,100 - INFO - ============================================================
+2026-02-28 17:56:37,101 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 17:56:37,101 - INFO - ============================================================
+2026-02-28 17:56:37,105 - INFO - ------------------------------------------------------------
+2026-02-28 17:56:37,105 - INFO - Procesando lote 1/2...
+2026-02-28 17:56:37,266 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 17:56:37,366 - INFO - ============================================================
+2026-02-28 17:56:37,366 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 17:56:37,366 - INFO - ============================================================
+2026-02-28 17:56:37,378 - INFO - ============================================================
+2026-02-28 17:56:37,379 - INFO - Programas: 8
+2026-02-28 17:56:37,380 - INFO - Con target (históricos): 100
+2026-02-28 17:56:37,380 - INFO - Sin target (nuevos): 0
+2026-02-28 17:56:38,101 - INFO - ============================================================
+2026-02-28 17:56:38,101 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 17:56:38,101 - INFO - ============================================================
+2026-02-28 17:56:38,101 - INFO - Datos de entrenamiento: 100 registros
+2026-02-28 17:56:38,102 - INFO - Distribución: 58 permanecen, 42 desertan
+2026-02-28 17:56:38,103 - INFO - Features utilizadas: 28
+2026-02-28 17:56:38,104 - INFO - Entrenando Random Forest...
+2026-02-28 17:56:38,362 - INFO - 
+Reporte de clasificación:
+2026-02-28 17:56:38,366 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00        12
+     Deserta       1.00      1.00      1.00         8
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2026-02-28 17:56:38,382 - INFO -   indice_riesgo_academico: 0.171
+2026-02-28 17:56:38,383 - INFO -   promedio_acumulado: 0.148
+2026-02-28 17:56:38,383 - INFO -   pct_creditos_aprobados: 0.145
+2026-02-28 17:56:38,383 - INFO -   probabilidad_continuar_baja: 0.128
+2026-02-28 17:56:38,383 - INFO -   promedio_ultimo: 0.114
+2026-02-28 17:56:38,383 - INFO -   satisfaccion_programa: 0.094
+2026-02-28 17:56:38,384 - INFO -   indice_engagement: 0.047
+2026-02-28 17:56:38,384 - INFO -   materias_perdidas: 0.040
+2026-02-28 17:56:38,384 - INFO -   frecuencia_semanal: 0.019
+2026-02-28 17:56:38,384 - INFO -   trabaja: 0.017
+2026-02-28 17:56:38,390 - INFO - No hay registros nuevos para predecir
+2026-02-28 17:56:38,390 - INFO - 
+============================================================
+2026-02-28 17:56:38,390 - INFO - PROCESO COMPLETADO
+2026-02-28 17:56:38,390 - INFO - ============================================================
+2026-02-28 17:57:13,787 - INFO - ============================================================
+2026-02-28 17:57:13,787 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 17:57:13,788 - INFO - ============================================================
+2026-02-28 17:57:14,423 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 17:57:14,427 - INFO - ------------------------------------------------------------
+2026-02-28 17:57:14,427 - INFO - Procesando lote 1/2...
+2026-02-28 17:57:14,530 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 17:57:14,644 - INFO - ============================================================
+2026-02-28 17:57:14,644 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 17:57:14,644 - INFO - ============================================================
+2026-02-28 17:57:14,644 - INFO - [OK] Procesados OK: 100
+2026-02-28 17:57:14,644 - INFO - [*] Errores: 0
+2026-02-28 17:57:14,644 - INFO - [TIME] Duración: 0.9 segundos (0.0 minutos)
+2026-02-28 17:57:14,644 - INFO - [SPEED] Velocidad: 116.8 archivos/segundo
+2026-02-28 17:57:14,646 - INFO - ============================================================
+2026-02-28 17:57:14,647 - INFO - Programas: 8
+2026-02-28 17:57:14,647 - INFO - Con target (históricos): 100
+2026-02-28 17:57:14,647 - INFO - Sin target (nuevos): 0
+2026-02-28 17:57:15,353 - INFO - ============================================================
+2026-02-28 17:57:15,353 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 17:57:15,353 - INFO - ============================================================
+2026-02-28 17:57:15,353 - INFO - Datos de entrenamiento: 100 registros
+2026-02-28 17:57:15,355 - INFO - Distribución: 58 permanecen, 42 desertan
+2026-02-28 17:57:15,355 - INFO - Features utilizadas: 28
+2026-02-28 17:57:15,355 - INFO - Entrenando Random Forest...
+2026-02-28 17:57:15,612 - INFO - 
+Reporte de clasificación:
+2026-02-28 17:57:15,616 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00        12
+     Deserta       1.00      1.00      1.00         8
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2026-02-28 17:57:15,644 - INFO - 
+[INFO] Top 10 features más importantes:
+2026-02-28 17:57:15,645 - INFO -   indice_riesgo_academico: 0.171
+2026-02-28 17:57:15,645 - INFO -   promedio_acumulado: 0.148
+2026-02-28 17:57:15,645 - INFO -   pct_creditos_aprobados: 0.145
+2026-02-28 17:57:15,645 - INFO -   probabilidad_continuar_baja: 0.128
+2026-02-28 17:57:15,645 - INFO -   promedio_ultimo: 0.114
+2026-02-28 17:57:15,645 - INFO -   satisfaccion_programa: 0.094
+2026-02-28 17:57:15,645 - INFO -   indice_engagement: 0.047
+2026-02-28 17:57:15,645 - INFO -   materias_perdidas: 0.040
+2026-02-28 17:57:15,645 - INFO -   frecuencia_semanal: 0.019
+2026-02-28 17:57:15,646 - INFO -   trabaja: 0.017
+2026-02-28 17:57:15,650 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 17:57:15,651 - INFO - No hay registros nuevos para predecir
+2026-02-28 17:57:15,652 - INFO - 
+============================================================
+2026-02-28 17:57:15,652 - INFO - PROCESO COMPLETADO
+2026-02-28 17:57:15,652 - INFO - ============================================================
+2026-02-28 17:57:18,217 - INFO - ============================================================
+2026-02-28 17:57:18,217 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 17:57:18,224 - INFO - ============================================================
+2026-02-28 17:57:18,225 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 17:57:18,228 - INFO - ------------------------------------------------------------
+2026-02-28 17:57:18,228 - INFO - Procesando lote 1/2...
+2026-02-28 17:57:18,389 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 17:57:18,502 - INFO - ============================================================
+2026-02-28 17:57:18,503 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 17:57:18,503 - INFO - ============================================================
+2026-02-28 17:57:18,503 - INFO - [OK] Procesados OK: 100
+2026-02-28 17:57:18,503 - INFO - [*] Errores: 0
+2026-02-28 17:57:18,503 - INFO - [TIME] Duración: 0.3 segundos (0.0 minutos)
+2026-02-28 17:57:18,503 - INFO - [SPEED] Velocidad: 351.1 archivos/segundo
+2026-02-28 17:57:18,504 - INFO - ============================================================
+2026-02-28 17:57:18,505 - INFO - Programas: 8
+2026-02-28 17:57:18,505 - INFO - Con target (históricos): 100
+2026-02-28 17:57:18,506 - INFO - Sin target (nuevos): 0
+2026-02-28 17:57:19,217 - INFO - ============================================================
+2026-02-28 17:57:19,217 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 17:57:19,218 - INFO - ============================================================
+2026-02-28 17:57:19,218 - INFO - Datos de entrenamiento: 100 registros
+2026-02-28 17:57:19,218 - INFO - Distribución: 58 permanecen, 42 desertan
+2026-02-28 17:57:19,219 - INFO - Features utilizadas: 28
+2026-02-28 17:57:19,220 - INFO - Entrenando Random Forest...
+2026-02-28 17:57:19,482 - INFO - 
+Reporte de clasificación:
+2026-02-28 17:57:19,486 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00        12
+     Deserta       1.00      1.00      1.00         8
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2026-02-28 17:57:19,512 - INFO - 
+[INFO] Top 10 features más importantes:
+2026-02-28 17:57:19,512 - INFO -   indice_riesgo_academico: 0.171
+2026-02-28 17:57:19,513 - INFO -   promedio_acumulado: 0.148
+2026-02-28 17:57:19,513 - INFO -   pct_creditos_aprobados: 0.145
+2026-02-28 17:57:19,513 - INFO -   probabilidad_continuar_baja: 0.128
+2026-02-28 17:57:19,513 - INFO -   promedio_ultimo: 0.114
+2026-02-28 17:57:19,513 - INFO -   satisfaccion_programa: 0.094
+2026-02-28 17:57:19,513 - INFO -   indice_engagement: 0.047
+2026-02-28 17:57:19,513 - INFO -   materias_perdidas: 0.040
+2026-02-28 17:57:19,513 - INFO -   frecuencia_semanal: 0.019
+2026-02-28 17:57:19,513 - INFO -   trabaja: 0.017
+2026-02-28 17:57:19,518 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 17:57:19,519 - INFO - No hay registros nuevos para predecir
+2026-02-28 17:57:19,519 - INFO - 
+============================================================
+2026-02-28 17:57:19,519 - INFO - PROCESO COMPLETADO
+2026-02-28 17:57:19,519 - INFO - ============================================================
+2026-02-28 18:00:17,999 - INFO - ============================================================
+2026-02-28 18:00:17,999 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:00:18,000 - INFO - ============================================================
+2026-02-28 18:00:18,617 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:00:18,626 - INFO - ------------------------------------------------------------
+2026-02-28 18:00:18,626 - INFO - Procesando lote 1/2...
+2026-02-28 18:00:18,765 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:00:18,877 - INFO - ============================================================
+2026-02-28 18:00:18,877 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:00:18,877 - INFO - ============================================================
+2026-02-28 18:00:18,877 - INFO - [OK] Procesados OK: 100
+2026-02-28 18:00:18,877 - INFO - [*] Errores: 0
+2026-02-28 18:00:18,877 - INFO - [TIME] Duración: 0.9 segundos (0.0 minutos)
+2026-02-28 18:00:18,877 - INFO - [SPEED] Velocidad: 113.9 archivos/segundo
+2026-02-28 18:00:18,879 - INFO - ============================================================
+2026-02-28 18:00:18,880 - INFO - Programas: 8
+2026-02-28 18:00:18,880 - INFO - Con target (históricos): 53
+2026-02-28 18:00:18,881 - INFO - Sin target (nuevos): 47
+2026-02-28 18:00:19,572 - INFO - ============================================================
+2026-02-28 18:00:19,579 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:00:19,579 - INFO - ============================================================
+2026-02-28 18:00:19,580 - INFO - Datos de entrenamiento: 53 registros
+2026-02-28 18:00:19,581 - INFO - Distribución: 33 permanecen, 20 desertan
+2026-02-28 18:00:19,581 - INFO - Features utilizadas: 28
+2026-02-28 18:00:19,583 - INFO - Entrenando Random Forest...
+2026-02-28 18:00:19,825 - INFO - 
+Reporte de clasificación:
+2026-02-28 18:00:19,829 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00         7
+     Deserta       1.00      1.00      1.00         4
+
+    accuracy                           1.00        11
+   macro avg       1.00      1.00      1.00        11
+weighted avg       1.00      1.00      1.00        11
+
+2026-02-28 18:00:19,844 - INFO - 
+[INFO] Top 10 features más importantes:
+2026-02-28 18:00:19,845 - INFO -   pct_creditos_aprobados: 0.183
+2026-02-28 18:00:19,845 - INFO -   indice_riesgo_academico: 0.123
+2026-02-28 18:00:19,845 - INFO -   satisfaccion_baja: 0.100
+2026-02-28 18:00:19,845 - INFO -   satisfaccion_programa: 0.099
+2026-02-28 18:00:19,846 - INFO -   probabilidad_continuar_baja: 0.088
+2026-02-28 18:00:19,846 - INFO -   indice_engagement: 0.078
+2026-02-28 18:00:19,846 - INFO -   promedio_acumulado: 0.074
+2026-02-28 18:00:19,846 - INFO -   promedio_ultimo: 0.063
+2026-02-28 18:00:19,846 - INFO -   frecuencia_semanal: 0.051
+2026-02-28 18:00:19,846 - INFO -   frecuencia_baja: 0.032
+2026-02-28 18:00:19,850 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:01:00,996 - INFO - ============================================================
+2026-02-28 18:01:00,996 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:01:00,996 - INFO - ============================================================
+2026-02-28 18:01:01,600 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:01:01,601 - INFO -   Total archivos a procesar: 100
+2026-02-28 18:01:01,601 - INFO -   Tama o de lote: 100
+2026-02-28 18:01:01,601 - INFO -   N mero de lotes: 2
+2026-02-28 18:01:01,601 - INFO - ------------------------------------------------------------
+2026-02-28 18:01:01,601 - INFO - Procesando lote 1/2...
+2026-02-28 18:01:01,715 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:01:01,832 - INFO -     100 registros guardados en features_procesadas
+2026-02-28 18:01:01,838 - INFO - ============================================================
+2026-02-28 18:01:01,838 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:01:01,838 - INFO - ============================================================
+2026-02-28 18:01:01,838 - INFO - [OK] Procesados OK: 100
+2026-02-28 18:01:01,838 - INFO - [*] Errores: 0
+2026-02-28 18:01:01,838 - INFO - [TIME] Duraci n: 0.8 segundos (0.0 minutos)
+2026-02-28 18:01:01,838 - INFO - [SPEED] Velocidad: 118.9 archivos/segundo
+2026-02-28 18:01:01,838 - INFO -   CSV guardado: procesados/features_20260228_1801.csv
+2026-02-28 18:01:01,838 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:01:01,838 - INFO - ============================================================
+2026-02-28 18:01:01,838 - INFO - 
+  Dataset final: 100 filas, 34 columnas
+2026-02-28 18:01:01,839 - INFO - Programas: 8
+2026-02-28 18:01:01,839 - INFO - Con target (hist ricos): 53
+2026-02-28 18:01:01,839 - INFO - Sin target (nuevos): 47
+2026-02-28 18:01:02,555 - INFO - ============================================================
+2026-02-28 18:01:02,555 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:01:02,555 - INFO - ============================================================
+2026-02-28 18:01:02,555 - INFO - Datos de entrenamiento: 53 registros
+2026-02-28 18:01:02,556 - INFO - Distribuci n: 33 permanecen, 20 desertan
+2026-02-28 18:01:02,557 - INFO - Features utilizadas: 28
+2026-02-28 18:01:02,558 - INFO - Entrenando Random Forest...
+2026-02-28 18:01:02,792 - INFO -   Accuracy: 1.000
+2026-02-28 18:01:02,792 - INFO -   AUC-ROC: 1.000
+2026-02-28 18:01:02,795 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:01:02,799 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00         7
+     Deserta       1.00      1.00      1.00         4
+
+    accuracy                           1.00        11
+   macro avg       1.00      1.00      1.00        11
+weighted avg       1.00      1.00      1.00        11
+
+2026-02-28 18:01:02,813 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:01:02,814 - INFO -   pct_creditos_aprobados: 0.183
+2026-02-28 18:01:02,814 - INFO -   indice_riesgo_academico: 0.123
+2026-02-28 18:01:02,814 - INFO -   satisfaccion_baja: 0.100
+2026-02-28 18:01:02,814 - INFO -   satisfaccion_programa: 0.099
+2026-02-28 18:01:02,815 - INFO -   probabilidad_continuar_baja: 0.088
+2026-02-28 18:01:02,815 - INFO -   indice_engagement: 0.078
+2026-02-28 18:01:02,815 - INFO -   promedio_acumulado: 0.074
+2026-02-28 18:01:02,815 - INFO -   promedio_ultimo: 0.063
+2026-02-28 18:01:02,815 - INFO -   frecuencia_semanal: 0.051
+2026-02-28 18:01:02,815 - INFO -   frecuencia_baja: 0.032
+2026-02-28 18:01:02,819 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:01:02,819 - INFO -   Prediciendo 47 registros nuevos...
+2026-02-28 18:01:24,787 - INFO - ============================================================
+2026-02-28 18:01:24,787 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:01:24,787 - INFO - ============================================================
+2026-02-28 18:01:25,405 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:01:25,406 - INFO -   Total archivos a procesar: 100
+2026-02-28 18:01:25,406 - INFO -   Tama o de lote: 100
+2026-02-28 18:01:25,406 - INFO -   N mero de lotes: 2
+2026-02-28 18:01:25,406 - INFO - ------------------------------------------------------------
+2026-02-28 18:01:25,406 - INFO - Procesando lote 1/2...
+2026-02-28 18:01:25,523 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:01:25,638 - INFO -     100 registros guardados en features_procesadas
+2026-02-28 18:01:25,642 - INFO - ============================================================
+2026-02-28 18:01:25,642 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:01:25,642 - INFO - ============================================================
+2026-02-28 18:01:25,642 - INFO - [OK] Procesados OK: 100
+2026-02-28 18:01:25,642 - INFO - [*] Errores: 0
+2026-02-28 18:01:25,642 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-02-28 18:01:25,642 - INFO - [SPEED] Velocidad: 117.0 archivos/segundo
+2026-02-28 18:01:25,642 - INFO -   CSV guardado: procesados/features_20260228_1801.csv
+2026-02-28 18:01:25,642 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:01:25,642 - INFO - ============================================================
+2026-02-28 18:01:25,642 - INFO - 
+  Dataset final: 100 filas, 34 columnas
+2026-02-28 18:01:25,642 - INFO - Programas: 8
+2026-02-28 18:01:25,643 - INFO - Con target (hist ricos): 53
+2026-02-28 18:01:25,643 - INFO - Sin target (nuevos): 47
+2026-02-28 18:01:26,338 - INFO - ============================================================
+2026-02-28 18:01:26,338 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:01:26,341 - INFO - ============================================================
+2026-02-28 18:01:26,341 - INFO - Datos de entrenamiento: 53 registros
+2026-02-28 18:01:26,341 - INFO - Distribuci n: 33 permanecen, 20 desertan
+2026-02-28 18:01:26,342 - INFO - Features utilizadas: 28
+2026-02-28 18:01:26,343 - INFO - Entrenando Random Forest...
+2026-02-28 18:01:26,580 - INFO -   Accuracy: 1.000
+2026-02-28 18:01:26,580 - INFO -   AUC-ROC: 1.000
+2026-02-28 18:01:26,580 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:01:26,584 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00         7
+     Deserta       1.00      1.00      1.00         4
+
+    accuracy                           1.00        11
+   macro avg       1.00      1.00      1.00        11
+weighted avg       1.00      1.00      1.00        11
+
+2026-02-28 18:01:26,599 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:01:26,600 - INFO -   pct_creditos_aprobados: 0.183
+2026-02-28 18:01:26,600 - INFO -   indice_riesgo_academico: 0.123
+2026-02-28 18:01:26,600 - INFO -   satisfaccion_baja: 0.100
+2026-02-28 18:01:26,600 - INFO -   satisfaccion_programa: 0.099
+2026-02-28 18:01:26,600 - INFO -   probabilidad_continuar_baja: 0.088
+2026-02-28 18:01:26,600 - INFO -   indice_engagement: 0.078
+2026-02-28 18:01:26,600 - INFO -   promedio_acumulado: 0.074
+2026-02-28 18:01:26,600 - INFO -   promedio_ultimo: 0.063
+2026-02-28 18:01:26,600 - INFO -   frecuencia_semanal: 0.051
+2026-02-28 18:01:26,601 - INFO -   frecuencia_baja: 0.032
+2026-02-28 18:01:26,604 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:01:26,605 - INFO -   Prediciendo 47 registros nuevos...
+2026-02-28 18:01:26,738 - INFO - 
+  ALERTAS ALTO RIESGO: 6 estudiantes
+2026-02-28 18:01:26,738 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:01:26,741 - INFO -   EST_HIST_092: 96.9% - Ingenieria_Industrial
+2026-02-28 18:01:26,741 - INFO -   EST_HIST_002: 91.1% - Derecho
+2026-02-28 18:01:26,741 - INFO -   EST_HIST_049: 90.8% - Enfermeria
+2026-02-28 18:01:26,741 - INFO -   EST_HIST_036: 77.3% - Psicologia
+2026-02-28 18:01:26,742 - INFO -   EST_HIST_021: 74.3% - Medicina
+2026-02-28 18:01:26,743 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1801.csv
+2026-02-28 18:01:26,743 - INFO - 
+============================================================
+2026-02-28 18:01:26,744 - INFO - PROCESO COMPLETADO
+2026-02-28 18:01:26,744 - INFO - ============================================================
+2026-02-28 18:06:11,488 - INFO - ============================================================
+2026-02-28 18:06:11,488 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:06:11,489 - INFO - ============================================================
+2026-02-28 18:06:11,489 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:06:11,490 - INFO -   Total archivos a procesar: 101
+2026-02-28 18:06:11,490 - INFO -   Tama o de lote: 100
+2026-02-28 18:06:11,490 - INFO -   N mero de lotes: 2
+2026-02-28 18:06:11,490 - INFO - ------------------------------------------------------------
+2026-02-28 18:06:11,491 - INFO - Procesando lote 1/2...
+2026-02-28 18:06:11,630 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:06:11,630 - INFO - Procesando lote 2/2...
+2026-02-28 18:06:11,739 - INFO -   Lote 2: 1 OK, 0 errores
+2026-02-28 18:06:11,867 - INFO -     101 registros guardados en features_procesadas
+2026-02-28 18:06:11,870 - INFO - ============================================================
+2026-02-28 18:06:11,870 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:06:11,870 - INFO - ============================================================
+2026-02-28 18:06:11,870 - INFO - [OK] Procesados OK: 101
+2026-02-28 18:06:11,871 - INFO - [*] Errores: 0
+2026-02-28 18:06:11,871 - INFO - [TIME] Duraci n: 0.4 segundos (0.0 minutos)
+2026-02-28 18:06:11,871 - INFO - [SPEED] Velocidad: 264.5 archivos/segundo
+2026-02-28 18:06:11,871 - INFO -   CSV guardado: procesados/features_20260228_1806.csv
+2026-02-28 18:06:11,871 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:06:11,871 - INFO - ============================================================
+2026-02-28 18:06:12,557 - INFO - ============================================================
+2026-02-28 18:06:12,557 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:06:12,557 - INFO - ============================================================
+2026-02-28 18:06:12,557 - INFO - Datos de entrenamiento: 53 registros
+2026-02-28 18:06:12,558 - INFO - Distribuci n: 33 permanecen, 20 desertan
+2026-02-28 18:06:12,558 - INFO - Features utilizadas: 28
+2026-02-28 18:06:12,560 - INFO - Entrenando Random Forest...
+2026-02-28 18:06:12,801 - INFO -   Accuracy: 1.000
+2026-02-28 18:06:12,801 - INFO -   AUC-ROC: 1.000
+2026-02-28 18:06:12,801 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:06:12,807 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      1.00      1.00         7
+     Deserta       1.00      1.00      1.00         4
+
+    accuracy                           1.00        11
+   macro avg       1.00      1.00      1.00        11
+weighted avg       1.00      1.00      1.00        11
+
+2026-02-28 18:06:12,823 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:06:12,824 - INFO -   pct_creditos_aprobados: 0.183
+2026-02-28 18:06:12,824 - INFO -   indice_riesgo_academico: 0.123
+2026-02-28 18:06:12,824 - INFO -   satisfaccion_baja: 0.100
+2026-02-28 18:06:12,824 - INFO -   satisfaccion_programa: 0.099
+2026-02-28 18:06:12,824 - INFO -   probabilidad_continuar_baja: 0.088
+2026-02-28 18:06:12,824 - INFO -   indice_engagement: 0.078
+2026-02-28 18:06:12,824 - INFO -   promedio_acumulado: 0.074
+2026-02-28 18:06:12,825 - INFO -   promedio_ultimo: 0.063
+2026-02-28 18:06:12,825 - INFO -   frecuencia_semanal: 0.051
+2026-02-28 18:06:12,825 - INFO -   frecuencia_baja: 0.032
+2026-02-28 18:06:12,830 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:06:12,831 - INFO -   Prediciendo 48 registros nuevos...
+2026-02-28 18:06:12,984 - INFO - 
+  ALERTAS ALTO RIESGO: 6 estudiantes
+2026-02-28 18:06:12,985 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:06:12,986 - INFO -   EST_HIST_092: 96.9% - Ingenieria_Industrial
+2026-02-28 18:06:12,986 - INFO -   EST_HIST_002: 91.1% - Derecho
+2026-02-28 18:06:12,986 - INFO -   EST_HIST_049: 90.8% - Enfermeria
+2026-02-28 18:06:12,987 - INFO -   EST_HIST_036: 77.3% - Psicologia
+2026-02-28 18:06:12,987 - INFO -   EST_HIST_021: 74.3% - Medicina
+2026-02-28 18:06:12,989 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1806.csv
+2026-02-28 18:18:06,601 - INFO - ============================================================
+2026-02-28 18:18:06,602 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:18:06,602 - INFO - ============================================================
+2026-02-28 18:18:07,246 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:18:07,246 - INFO -   Total archivos a procesar: 51
+2026-02-28 18:18:07,246 - INFO -   Tama o de lote: 100
+2026-02-28 18:18:07,246 - INFO -   N mero de lotes: 1
+2026-02-28 18:18:07,246 - INFO - ------------------------------------------------------------
+2026-02-28 18:18:07,246 - INFO - Procesando lote 1/1...
+2026-02-28 18:21:13,146 - INFO - ============================================================
+2026-02-28 18:21:13,146 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:21:13,147 - INFO - ============================================================
+2026-02-28 18:21:13,845 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:21:13,845 - INFO -   Total archivos a procesar: 15
+2026-02-28 18:21:13,846 - INFO -   Tama o de lote: 100
+2026-02-28 18:21:13,846 - INFO -   N mero de lotes: 1
+2026-02-28 18:21:13,846 - INFO - ------------------------------------------------------------
+2026-02-28 18:21:13,846 - INFO - Procesando lote 1/1...
+2026-02-28 18:21:13,928 - INFO -   Lote 1: 15 OK, 0 errores
+2026-02-28 18:21:14,037 - INFO -     15 registros guardados en features_procesadas
+2026-02-28 18:21:14,039 - INFO - ============================================================
+2026-02-28 18:21:14,039 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:21:14,039 - INFO - ============================================================
+2026-02-28 18:21:14,039 - INFO - [OK] Procesados OK: 15
+2026-02-28 18:21:14,039 - INFO - [*] Errores: 0
+2026-02-28 18:21:14,039 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-02-28 18:21:14,039 - INFO - [SPEED] Velocidad: 16.8 archivos/segundo
+2026-02-28 18:21:14,039 - INFO -   CSV guardado: procesados/features_20260228_1821.csv
+2026-02-28 18:21:14,039 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:21:14,039 - INFO - ============================================================
+2026-02-28 18:21:14,040 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:22:06,032 - INFO - ============================================================
+2026-02-28 18:22:06,032 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:22:06,033 - INFO - ============================================================
+2026-02-28 18:22:06,688 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:22:06,689 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:22:06,689 - INFO -   Tama o de lote: 100
+2026-02-28 18:22:06,689 - INFO -   N mero de lotes: 1
+2026-02-28 18:22:06,689 - INFO - ------------------------------------------------------------
+2026-02-28 18:22:06,689 - INFO - Procesando lote 1/1...
+2026-02-28 18:22:06,812 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:22:06,913 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:22:06,915 - INFO - ============================================================
+2026-02-28 18:22:06,916 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:22:06,916 - INFO - ============================================================
+2026-02-28 18:22:06,916 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:22:06,916 - INFO - [*] Errores: 0
+2026-02-28 18:22:06,916 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-02-28 18:22:06,916 - INFO - [SPEED] Velocidad: 56.6 archivos/segundo
+2026-02-28 18:22:06,916 - INFO -   CSV guardado: procesados/features_20260228_1822.csv
+2026-02-28 18:22:06,916 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:22:06,916 - INFO - ============================================================
+2026-02-28 18:22:06,916 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:26:01,135 - INFO - ============================================================
+2026-02-28 18:26:01,135 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:26:01,135 - INFO - ============================================================
+2026-02-28 18:26:01,707 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:26:01,708 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:26:01,708 - INFO -   Tama o de lote: 100
+2026-02-28 18:26:01,708 - INFO -   N mero de lotes: 1
+2026-02-28 18:26:01,708 - INFO - ------------------------------------------------------------
+2026-02-28 18:26:01,708 - INFO - Procesando lote 1/1...
+2026-02-28 18:26:01,807 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:26:01,915 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:26:01,918 - INFO - ============================================================
+2026-02-28 18:26:01,918 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:26:01,918 - INFO - ============================================================
+2026-02-28 18:26:01,918 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:26:01,918 - INFO - [*] Errores: 0
+2026-02-28 18:26:01,918 - INFO - [TIME] Duraci n: 0.8 segundos (0.0 minutos)
+2026-02-28 18:26:01,918 - INFO - [SPEED] Velocidad: 63.9 archivos/segundo
+2026-02-28 18:26:01,918 - INFO -   CSV guardado: procesados/features_20260228_1826.csv
+2026-02-28 18:26:01,918 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:26:01,918 - INFO - ============================================================
+2026-02-28 18:26:01,919 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:28:39,182 - INFO - ============================================================
+2026-02-28 18:28:39,182 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:28:39,182 - INFO - ============================================================
+2026-02-28 18:28:39,769 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:28:39,770 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:28:39,770 - INFO -   Tama o de lote: 100
+2026-02-28 18:28:39,770 - INFO -   N mero de lotes: 1
+2026-02-28 18:28:39,770 - INFO - ------------------------------------------------------------
+2026-02-28 18:28:39,770 - INFO - Procesando lote 1/1...
+2026-02-28 18:28:39,869 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:28:39,976 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:28:39,979 - INFO - ============================================================
+2026-02-28 18:28:39,979 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:28:39,979 - INFO - ============================================================
+2026-02-28 18:28:39,979 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:28:39,979 - INFO - [*] Errores: 0
+2026-02-28 18:28:39,979 - INFO - [TIME] Duraci n: 0.8 segundos (0.0 minutos)
+2026-02-28 18:28:39,979 - INFO - [SPEED] Velocidad: 62.7 archivos/segundo
+2026-02-28 18:28:39,979 - INFO -   CSV guardado: procesados/features_20260228_1828.csv
+2026-02-28 18:28:39,980 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:28:39,980 - INFO - ============================================================
+2026-02-28 18:28:39,980 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:30:29,207 - INFO - ============================================================
+2026-02-28 18:30:29,207 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:30:29,207 - INFO - ============================================================
+2026-02-28 18:30:29,978 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:30:29,979 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:30:29,979 - INFO -   Tama o de lote: 100
+2026-02-28 18:30:29,979 - INFO -   N mero de lotes: 1
+2026-02-28 18:30:29,979 - INFO - ------------------------------------------------------------
+2026-02-28 18:30:29,979 - INFO - Procesando lote 1/1...
+2026-02-28 18:30:30,079 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:30:30,178 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:30:30,180 - INFO - ============================================================
+2026-02-28 18:30:30,180 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:30:30,181 - INFO - ============================================================
+2026-02-28 18:30:30,181 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:30:30,181 - INFO - [*] Errores: 0
+2026-02-28 18:30:30,181 - INFO - [TIME] Duraci n: 1.0 segundos (0.0 minutos)
+2026-02-28 18:30:30,181 - INFO - [SPEED] Velocidad: 51.4 archivos/segundo
+2026-02-28 18:30:30,181 - INFO -   CSV guardado: procesados/features_20260228_1830.csv
+2026-02-28 18:30:30,181 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:30:30,181 - INFO - ============================================================
+2026-02-28 18:30:30,181 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:33:06,437 - INFO - ============================================================
+2026-02-28 18:33:06,438 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:33:06,438 - INFO - ============================================================
+2026-02-28 18:33:07,066 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:33:07,066 - INFO -   Total archivos a procesar: 110
+2026-02-28 18:33:07,066 - INFO -   Tama o de lote: 100
+2026-02-28 18:33:07,066 - INFO -   N mero de lotes: 2
+2026-02-28 18:33:07,067 - INFO - ------------------------------------------------------------
+2026-02-28 18:33:07,067 - INFO - Procesando lote 1/2...
+2026-02-28 18:33:07,175 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:33:07,176 - INFO - Procesando lote 2/2...
+2026-02-28 18:33:07,274 - INFO -   Lote 2: 10 OK, 0 errores
+2026-02-28 18:33:07,374 - INFO -     110 registros guardados en features_procesadas
+2026-02-28 18:33:07,376 - INFO - ============================================================
+2026-02-28 18:33:07,376 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:33:07,376 - INFO - ============================================================
+2026-02-28 18:33:07,376 - INFO - [OK] Procesados OK: 110
+2026-02-28 18:33:07,377 - INFO - [*] Errores: 0
+2026-02-28 18:33:07,377 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-02-28 18:33:07,377 - INFO - [SPEED] Velocidad: 117.1 archivos/segundo
+2026-02-28 18:33:07,377 - INFO -   CSV guardado: procesados/features_20260228_1833.csv
+2026-02-28 18:33:07,377 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:33:07,377 - INFO - ============================================================
+2026-02-28 18:33:07,378 - INFO - ============================================================
+2026-02-28 18:33:07,378 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:33:07,378 - INFO - ============================================================
+2026-02-28 18:33:07,379 - INFO - Datos de entrenamiento: 60 registros
+2026-02-28 18:33:07,379 - INFO - Distribuci n: 42 permanecen, 18 desertan
+2026-02-28 18:33:07,380 - INFO - Features utilizadas: 28
+2026-02-28 18:33:07,381 - INFO - Entrenando Random Forest...
+2026-02-28 18:33:07,624 - INFO -   Accuracy: 0.917
+2026-02-28 18:33:07,625 - INFO -   AUC-ROC: 0.969
+2026-02-28 18:33:07,625 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:33:07,630 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      0.88      0.93         8
+     Deserta       0.80      1.00      0.89         4
+
+    accuracy                           0.92        12
+   macro avg       0.90      0.94      0.91        12
+weighted avg       0.93      0.92      0.92        12
+
+2026-02-28 18:33:07,645 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:33:07,646 - INFO -   promedio_ultimo: 0.170
+2026-02-28 18:33:07,646 - INFO -   satisfaccion_programa: 0.134
+2026-02-28 18:33:07,646 - INFO -   promedio_acumulado: 0.125
+2026-02-28 18:33:07,646 - INFO -   dificultad_pago: 0.110
+2026-02-28 18:33:07,646 - INFO -   estrato_bajo: 0.110
+2026-02-28 18:33:07,646 - INFO -   materias_perdidas: 0.083
+2026-02-28 18:33:07,646 - INFO -   estrato: 0.071
+2026-02-28 18:33:07,646 - INFO -   satisfaccion_baja: 0.033
+2026-02-28 18:33:07,646 - INFO -   trabaja_mucho: 0.027
+2026-02-28 18:33:07,647 - INFO -   trabaja: 0.023
+2026-02-28 18:33:07,652 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:33:07,653 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:33:07,800 - INFO - 
+  ALERTAS ALTO RIESGO: 16 estudiantes
+2026-02-28 18:33:07,800 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:33:07,801 - INFO -   EST_NUEVO_017: 97.4% - Contaduria
+2026-02-28 18:33:07,802 - INFO -   EST_NUEVO_013: 97.4% - Psicologia
+2026-02-28 18:33:07,802 - INFO -   EST_NUEVO_026: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:33:07,802 - INFO -   EST_NUEVO_042: 97.4% - Contaduria
+2026-02-28 18:33:07,802 - INFO -   EST_NUEVO_005: 96.7% - Psicologia
+2026-02-28 18:33:07,804 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1833.csv
+2026-02-28 18:33:26,950 - INFO - ============================================================
+2026-02-28 18:33:26,950 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:33:26,950 - INFO - ============================================================
+2026-02-28 18:33:26,951 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:33:26,952 - INFO -   Total archivos a procesar: 160
+2026-02-28 18:33:26,952 - INFO -   Tama o de lote: 100
+2026-02-28 18:33:26,952 - INFO -   N mero de lotes: 2
+2026-02-28 18:33:26,952 - INFO - ------------------------------------------------------------
+2026-02-28 18:33:26,952 - INFO - Procesando lote 1/2...
+2026-02-28 18:33:27,103 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:33:27,104 - INFO - Procesando lote 2/2...
+2026-02-28 18:33:27,205 - INFO -   Lote 2: 60 OK, 0 errores
+2026-02-28 18:33:27,322 - INFO -     160 registros guardados en features_procesadas
+2026-02-28 18:33:27,325 - INFO - ============================================================
+2026-02-28 18:33:27,325 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:33:27,325 - INFO - ============================================================
+2026-02-28 18:33:27,325 - INFO - [OK] Procesados OK: 160
+2026-02-28 18:33:27,325 - INFO - [*] Errores: 0
+2026-02-28 18:33:27,326 - INFO - [TIME] Duraci n: 0.4 segundos (0.0 minutos)
+2026-02-28 18:33:27,326 - INFO - [SPEED] Velocidad: 427.0 archivos/segundo
+2026-02-28 18:33:27,326 - INFO -   CSV guardado: procesados/features_20260228_1833.csv
+2026-02-28 18:33:27,326 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:33:27,326 - INFO - ============================================================
+2026-02-28 18:33:27,327 - INFO - ============================================================
+2026-02-28 18:33:27,327 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:33:27,327 - INFO - ============================================================
+2026-02-28 18:33:27,327 - INFO - Datos de entrenamiento: 60 registros
+2026-02-28 18:33:27,328 - INFO - Distribuci n: 42 permanecen, 18 desertan
+2026-02-28 18:33:27,328 - INFO - Features utilizadas: 28
+2026-02-28 18:33:27,329 - INFO - Entrenando Random Forest...
+2026-02-28 18:33:27,564 - INFO -   Accuracy: 0.917
+2026-02-28 18:33:27,564 - INFO -   AUC-ROC: 0.969
+2026-02-28 18:33:27,565 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:33:27,569 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      0.88      0.93         8
+     Deserta       0.80      1.00      0.89         4
+
+    accuracy                           0.92        12
+   macro avg       0.90      0.94      0.91        12
+weighted avg       0.93      0.92      0.92        12
+
+2026-02-28 18:33:27,585 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:33:27,585 - INFO -   promedio_ultimo: 0.170
+2026-02-28 18:33:27,585 - INFO -   satisfaccion_programa: 0.134
+2026-02-28 18:33:27,585 - INFO -   promedio_acumulado: 0.125
+2026-02-28 18:33:27,585 - INFO -   dificultad_pago: 0.110
+2026-02-28 18:33:27,586 - INFO -   estrato_bajo: 0.110
+2026-02-28 18:33:27,586 - INFO -   materias_perdidas: 0.083
+2026-02-28 18:33:27,586 - INFO -   estrato: 0.071
+2026-02-28 18:33:27,586 - INFO -   satisfaccion_baja: 0.033
+2026-02-28 18:33:27,586 - INFO -   trabaja_mucho: 0.027
+2026-02-28 18:33:27,586 - INFO -   trabaja: 0.023
+2026-02-28 18:33:27,591 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:33:27,592 - INFO -   Prediciendo 100 registros nuevos...
+2026-02-28 18:33:27,755 - INFO - 
+  ALERTAS ALTO RIESGO: 31 estudiantes
+2026-02-28 18:33:27,755 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:33:27,757 - INFO -   EST_NUEVO_017: 97.4% - Contaduria
+2026-02-28 18:33:27,757 - INFO -   EST_NUEVO_013: 97.4% - Psicologia
+2026-02-28 18:33:27,757 - INFO -   EST_NUEVO_026: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:33:27,757 - INFO -   EST_NUEVO_042: 97.4% - Contaduria
+2026-02-28 18:33:27,757 - INFO -   EST_NUEVO_005: 96.7% - Psicologia
+2026-02-28 18:33:27,760 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1833.csv
+2026-02-28 18:33:48,695 - INFO - ============================================================
+2026-02-28 18:33:48,695 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:33:48,695 - INFO - ============================================================
+2026-02-28 18:33:49,259 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:33:49,260 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:33:49,260 - INFO -   Tama o de lote: 100
+2026-02-28 18:33:49,260 - INFO -   N mero de lotes: 1
+2026-02-28 18:33:49,261 - INFO - ------------------------------------------------------------
+2026-02-28 18:33:49,261 - INFO - Procesando lote 1/1...
+2026-02-28 18:33:49,369 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:33:49,477 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:33:49,478 - INFO - ============================================================
+2026-02-28 18:33:49,479 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:33:49,479 - INFO - ============================================================
+2026-02-28 18:33:49,479 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:33:49,479 - INFO - [*] Errores: 0
+2026-02-28 18:33:49,479 - INFO - [TIME] Duraci n: 0.8 segundos (0.0 minutos)
+2026-02-28 18:33:49,479 - INFO - [SPEED] Velocidad: 63.8 archivos/segundo
+2026-02-28 18:33:49,479 - INFO -   CSV guardado: procesados/features_20260228_1833.csv
+2026-02-28 18:33:49,479 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:33:49,479 - INFO - ============================================================
+2026-02-28 18:33:49,481 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:34:10,507 - INFO - ============================================================
+2026-02-28 18:34:10,507 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:34:10,508 - INFO - ============================================================
+2026-02-28 18:34:11,174 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:34:11,175 - INFO -   Total archivos a procesar: 110
+2026-02-28 18:34:11,175 - INFO -   Tama o de lote: 100
+2026-02-28 18:34:11,175 - INFO -   N mero de lotes: 2
+2026-02-28 18:34:11,175 - INFO - ------------------------------------------------------------
+2026-02-28 18:34:11,175 - INFO - Procesando lote 1/2...
+2026-02-28 18:34:11,283 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:34:11,283 - INFO - Procesando lote 2/2...
+2026-02-28 18:34:11,391 - INFO -   Lote 2: 10 OK, 0 errores
+2026-02-28 18:34:11,507 - INFO -     110 registros guardados en features_procesadas
+2026-02-28 18:34:11,509 - INFO - ============================================================
+2026-02-28 18:34:11,510 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:34:11,510 - INFO - ============================================================
+2026-02-28 18:34:11,510 - INFO - [OK] Procesados OK: 110
+2026-02-28 18:34:11,510 - INFO - [*] Errores: 0
+2026-02-28 18:34:11,510 - INFO - [TIME] Duraci n: 1.0 segundos (0.0 minutos)
+2026-02-28 18:34:11,511 - INFO - [SPEED] Velocidad: 109.7 archivos/segundo
+2026-02-28 18:34:11,511 - INFO -   CSV guardado: procesados/features_20260228_1834.csv
+2026-02-28 18:34:11,511 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:34:11,511 - INFO - ============================================================
+2026-02-28 18:34:11,511 - INFO - ============================================================
+2026-02-28 18:34:11,512 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:34:11,512 - INFO - ============================================================
+2026-02-28 18:34:11,512 - INFO - Datos de entrenamiento: 60 registros
+2026-02-28 18:34:11,513 - INFO - Distribuci n: 42 permanecen, 18 desertan
+2026-02-28 18:34:11,513 - INFO - Features utilizadas: 28
+2026-02-28 18:34:11,514 - INFO - Entrenando Random Forest...
+2026-02-28 18:34:11,748 - INFO -   Accuracy: 0.917
+2026-02-28 18:34:11,748 - INFO -   AUC-ROC: 0.969
+2026-02-28 18:34:11,749 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:34:11,753 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      0.88      0.93         8
+     Deserta       0.80      1.00      0.89         4
+
+    accuracy                           0.92        12
+   macro avg       0.90      0.94      0.91        12
+weighted avg       0.93      0.92      0.92        12
+
+2026-02-28 18:34:11,768 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:34:11,769 - INFO -   promedio_ultimo: 0.170
+2026-02-28 18:34:11,769 - INFO -   satisfaccion_programa: 0.134
+2026-02-28 18:34:11,769 - INFO -   promedio_acumulado: 0.125
+2026-02-28 18:34:11,769 - INFO -   dificultad_pago: 0.110
+2026-02-28 18:34:11,770 - INFO -   estrato_bajo: 0.110
+2026-02-28 18:34:11,770 - INFO -   materias_perdidas: 0.083
+2026-02-28 18:34:11,770 - INFO -   estrato: 0.071
+2026-02-28 18:34:11,770 - INFO -   satisfaccion_baja: 0.033
+2026-02-28 18:34:11,770 - INFO -   trabaja_mucho: 0.027
+2026-02-28 18:34:11,770 - INFO -   trabaja: 0.023
+2026-02-28 18:34:11,774 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:34:11,775 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:34:11,908 - INFO - 
+  ALERTAS ALTO RIESGO: 16 estudiantes
+2026-02-28 18:34:11,908 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:34:11,909 - INFO -   EST_NUEVO_017: 97.4% - Contaduria
+2026-02-28 18:34:11,910 - INFO -   EST_NUEVO_013: 97.4% - Psicologia
+2026-02-28 18:34:11,910 - INFO -   EST_NUEVO_026: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:34:11,910 - INFO -   EST_NUEVO_042: 97.4% - Contaduria
+2026-02-28 18:34:11,910 - INFO -   EST_NUEVO_005: 96.7% - Psicologia
+2026-02-28 18:34:11,912 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1834.csv
+2026-02-28 18:34:34,211 - INFO - ============================================================
+2026-02-28 18:34:34,211 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:34:34,211 - INFO - ============================================================
+2026-02-28 18:34:34,780 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:34:34,780 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:34:34,780 - INFO -   Tama o de lote: 100
+2026-02-28 18:34:34,781 - INFO -   N mero de lotes: 1
+2026-02-28 18:34:34,781 - INFO - ------------------------------------------------------------
+2026-02-28 18:34:34,781 - INFO - Procesando lote 1/1...
+2026-02-28 18:34:34,923 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:34:35,020 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:34:35,022 - INFO - ============================================================
+2026-02-28 18:34:35,022 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:34:35,022 - INFO - ============================================================
+2026-02-28 18:34:35,022 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:34:35,022 - INFO - [*] Errores: 0
+2026-02-28 18:34:35,022 - INFO - [TIME] Duraci n: 0.8 segundos (0.0 minutos)
+2026-02-28 18:34:35,022 - INFO - [SPEED] Velocidad: 61.7 archivos/segundo
+2026-02-28 18:34:35,022 - INFO -   CSV guardado: procesados/features_20260228_1834.csv
+2026-02-28 18:34:35,023 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:34:35,023 - INFO - ============================================================
+2026-02-28 18:34:35,025 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:38:10,723 - INFO - ============================================================
+2026-02-28 18:38:10,724 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:38:10,724 - INFO - ============================================================
+2026-02-28 18:38:11,359 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:38:11,359 - INFO -   Total archivos a procesar: 14
+2026-02-28 18:38:11,359 - INFO -   Tama o de lote: 100
+2026-02-28 18:38:11,359 - INFO -   N mero de lotes: 1
+2026-02-28 18:38:11,359 - INFO - ------------------------------------------------------------
+2026-02-28 18:38:11,360 - INFO - Procesando lote 1/1...
+2026-02-28 18:38:11,459 - INFO -   Lote 1: 14 OK, 0 errores
+2026-02-28 18:38:11,566 - INFO -     14 registros guardados en features_procesadas
+2026-02-28 18:38:11,568 - INFO - ============================================================
+2026-02-28 18:38:11,568 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:38:11,568 - INFO - ============================================================
+2026-02-28 18:38:11,568 - INFO - [OK] Procesados OK: 14
+2026-02-28 18:38:11,568 - INFO - [*] Errores: 0
+2026-02-28 18:38:11,568 - INFO - [TIME] Duraci n: 0.8 segundos (0.0 minutos)
+2026-02-28 18:38:11,568 - INFO - [SPEED] Velocidad: 16.6 archivos/segundo
+2026-02-28 18:38:11,569 - INFO -   CSV guardado: procesados/features_20260228_1838.csv
+2026-02-28 18:38:11,569 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:38:11,569 - INFO - ============================================================
+2026-02-28 18:38:11,570 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:39:00,958 - INFO - ============================================================
+2026-02-28 18:39:00,959 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:39:00,959 - INFO - ============================================================
+2026-02-28 18:39:01,535 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:39:01,536 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:39:01,536 - INFO -   Tama o de lote: 100
+2026-02-28 18:39:01,536 - INFO -   N mero de lotes: 1
+2026-02-28 18:39:01,536 - INFO - ------------------------------------------------------------
+2026-02-28 18:39:01,536 - INFO - Procesando lote 1/1...
+2026-02-28 18:39:01,643 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:39:01,744 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:39:01,745 - INFO - ============================================================
+2026-02-28 18:39:01,746 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:39:01,746 - INFO - ============================================================
+2026-02-28 18:39:01,746 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:39:01,746 - INFO - [*] Errores: 0
+2026-02-28 18:39:01,746 - INFO - [TIME] Duraci n: 0.8 segundos (0.0 minutos)
+2026-02-28 18:39:01,746 - INFO - [SPEED] Velocidad: 63.5 archivos/segundo
+2026-02-28 18:39:01,746 - INFO -   CSV guardado: procesados/features_20260228_1839.csv
+2026-02-28 18:39:01,746 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:39:01,746 - INFO - ============================================================
+2026-02-28 18:39:01,747 - ERROR - No se pudo cargar modelo: [Errno 2] No such file or directory: 'modelo_rf_v1.pkl'
+2026-02-28 18:39:21,027 - INFO - ============================================================
+2026-02-28 18:39:21,027 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:39:21,027 - INFO - ============================================================
+2026-02-28 18:39:21,028 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:39:21,028 - INFO -   Total archivos a procesar: 160
+2026-02-28 18:39:21,029 - INFO -   Tama o de lote: 100
+2026-02-28 18:39:21,029 - INFO -   N mero de lotes: 2
+2026-02-28 18:39:21,029 - INFO - ------------------------------------------------------------
+2026-02-28 18:39:21,029 - INFO - Procesando lote 1/2...
+2026-02-28 18:39:21,158 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:39:21,158 - INFO - Procesando lote 2/2...
+2026-02-28 18:39:21,283 - INFO -   Lote 2: 60 OK, 0 errores
+2026-02-28 18:39:21,399 - INFO -     160 registros guardados en features_procesadas
+2026-02-28 18:39:21,403 - INFO - ============================================================
+2026-02-28 18:39:21,403 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:39:21,403 - INFO - ============================================================
+2026-02-28 18:39:21,403 - INFO - [OK] Procesados OK: 160
+2026-02-28 18:39:21,403 - INFO - [*] Errores: 0
+2026-02-28 18:39:21,403 - INFO - [TIME] Duraci n: 0.4 segundos (0.0 minutos)
+2026-02-28 18:39:21,403 - INFO - [SPEED] Velocidad: 424.7 archivos/segundo
+2026-02-28 18:39:21,404 - INFO -   CSV guardado: procesados/features_20260228_1839.csv
+2026-02-28 18:39:21,404 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:39:21,404 - INFO - ============================================================
+2026-02-28 18:39:21,405 - INFO - ============================================================
+2026-02-28 18:39:21,405 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:39:21,405 - INFO - ============================================================
+2026-02-28 18:39:21,405 - INFO - Datos de entrenamiento: 60 registros
+2026-02-28 18:39:21,406 - INFO - Distribuci n: 42 permanecen, 18 desertan
+2026-02-28 18:39:21,407 - INFO - Features utilizadas: 28
+2026-02-28 18:39:21,408 - INFO - Entrenando Random Forest...
+2026-02-28 18:39:21,659 - INFO -   Accuracy: 0.917
+2026-02-28 18:39:21,659 - INFO -   AUC-ROC: 0.969
+2026-02-28 18:39:21,659 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:39:21,663 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      0.88      0.93         8
+     Deserta       0.80      1.00      0.89         4
+
+    accuracy                           0.92        12
+   macro avg       0.90      0.94      0.91        12
+weighted avg       0.93      0.92      0.92        12
+
+2026-02-28 18:39:21,679 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:39:21,679 - INFO -   promedio_ultimo: 0.170
+2026-02-28 18:39:21,679 - INFO -   satisfaccion_programa: 0.134
+2026-02-28 18:39:21,680 - INFO -   promedio_acumulado: 0.125
+2026-02-28 18:39:21,680 - INFO -   dificultad_pago: 0.110
+2026-02-28 18:39:21,680 - INFO -   estrato_bajo: 0.110
+2026-02-28 18:39:21,680 - INFO -   materias_perdidas: 0.083
+2026-02-28 18:39:21,680 - INFO -   estrato: 0.071
+2026-02-28 18:39:21,680 - INFO -   satisfaccion_baja: 0.033
+2026-02-28 18:39:21,680 - INFO -   trabaja_mucho: 0.027
+2026-02-28 18:39:21,680 - INFO -   trabaja: 0.023
+2026-02-28 18:39:21,685 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:39:21,686 - INFO -   Prediciendo 100 registros nuevos...
+2026-02-28 18:39:21,848 - INFO - 
+  ALERTAS ALTO RIESGO: 40 estudiantes
+2026-02-28 18:39:21,849 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:39:21,850 - INFO -   EST_VAR_014: 97.4% - Administracion
+2026-02-28 18:39:21,850 - INFO -   EST_VAR_020: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:39:21,851 - INFO -   EST_VAR_021: 97.4% - Derecho
+2026-02-28 18:39:21,851 - INFO -   EST_VAR_025: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:39:21,851 - INFO -   EST_VAR_047: 97.4% - Contaduria
+2026-02-28 18:39:21,853 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1839.csv
+2026-02-28 18:39:59,663 - INFO - ============================================================
+2026-02-28 18:39:59,663 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:39:59,663 - INFO - ============================================================
+2026-02-28 18:39:59,663 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:39:59,664 - INFO -   Total archivos a procesar: 160
+2026-02-28 18:39:59,664 - INFO -   Tama o de lote: 100
+2026-02-28 18:39:59,664 - INFO -   N mero de lotes: 2
+2026-02-28 18:39:59,664 - INFO - ------------------------------------------------------------
+2026-02-28 18:39:59,664 - INFO - Procesando lote 1/2...
+2026-02-28 18:39:59,828 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:39:59,828 - INFO - Procesando lote 2/2...
+2026-02-28 18:39:59,943 - INFO -   Lote 2: 60 OK, 0 errores
+2026-02-28 18:40:00,060 - INFO -     160 registros guardados en features_procesadas
+2026-02-28 18:40:00,063 - INFO - ============================================================
+2026-02-28 18:40:00,063 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:40:00,063 - INFO - ============================================================
+2026-02-28 18:40:00,063 - INFO - [OK] Procesados OK: 160
+2026-02-28 18:40:00,063 - INFO - [*] Errores: 0
+2026-02-28 18:40:00,063 - INFO - [TIME] Duraci n: 0.4 segundos (0.0 minutos)
+2026-02-28 18:40:00,063 - INFO - [SPEED] Velocidad: 400.2 archivos/segundo
+2026-02-28 18:40:00,063 - INFO -   CSV guardado: procesados/features_20260228_1840.csv
+2026-02-28 18:40:00,063 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:40:00,063 - INFO - ============================================================
+2026-02-28 18:40:00,064 - INFO - ============================================================
+2026-02-28 18:40:00,064 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:40:00,064 - INFO - ============================================================
+2026-02-28 18:40:00,065 - INFO - Datos de entrenamiento: 60 registros
+2026-02-28 18:40:00,065 - INFO - Distribuci n: 42 permanecen, 18 desertan
+2026-02-28 18:40:00,066 - INFO - Features utilizadas: 28
+2026-02-28 18:40:00,067 - INFO - Entrenando Random Forest...
+2026-02-28 18:40:00,303 - INFO -   Accuracy: 0.917
+2026-02-28 18:40:00,303 - INFO -   AUC-ROC: 0.969
+2026-02-28 18:40:00,303 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:40:00,307 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      0.88      0.93         8
+     Deserta       0.80      1.00      0.89         4
+
+    accuracy                           0.92        12
+   macro avg       0.90      0.94      0.91        12
+weighted avg       0.93      0.92      0.92        12
+
+2026-02-28 18:40:00,322 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:40:00,323 - INFO -   promedio_ultimo: 0.170
+2026-02-28 18:40:00,323 - INFO -   satisfaccion_programa: 0.134
+2026-02-28 18:40:00,323 - INFO -   promedio_acumulado: 0.125
+2026-02-28 18:40:00,323 - INFO -   dificultad_pago: 0.110
+2026-02-28 18:40:00,323 - INFO -   estrato_bajo: 0.110
+2026-02-28 18:40:00,323 - INFO -   materias_perdidas: 0.083
+2026-02-28 18:40:00,324 - INFO -   estrato: 0.071
+2026-02-28 18:40:00,324 - INFO -   satisfaccion_baja: 0.033
+2026-02-28 18:40:00,324 - INFO -   trabaja_mucho: 0.027
+2026-02-28 18:40:00,324 - INFO -   trabaja: 0.023
+2026-02-28 18:40:00,328 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:40:00,329 - INFO -   Prediciendo 100 registros nuevos...
+2026-02-28 18:40:00,495 - INFO - 
+  ALERTAS ALTO RIESGO: 40 estudiantes
+2026-02-28 18:40:00,495 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:40:00,496 - INFO -   EST_VAR_014: 97.4% - Administracion
+2026-02-28 18:40:00,496 - INFO -   EST_VAR_020: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:40:00,497 - INFO -   EST_VAR_021: 97.4% - Derecho
+2026-02-28 18:40:00,497 - INFO -   EST_VAR_025: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:40:00,497 - INFO -   EST_VAR_047: 97.4% - Contaduria
+2026-02-28 18:40:00,499 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1840.csv
+2026-02-28 18:40:14,031 - INFO - ============================================================
+2026-02-28 18:40:14,031 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:40:14,031 - INFO - ============================================================
+2026-02-28 18:40:14,031 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:40:14,032 - INFO -   Total archivos a procesar: 160
+2026-02-28 18:40:14,032 - INFO -   Tama o de lote: 100
+2026-02-28 18:40:14,032 - INFO -   N mero de lotes: 2
+2026-02-28 18:40:14,032 - INFO - ------------------------------------------------------------
+2026-02-28 18:40:14,032 - INFO - Procesando lote 1/2...
+2026-02-28 18:40:14,201 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:40:14,202 - INFO - Procesando lote 2/2...
+2026-02-28 18:40:14,334 - INFO -   Lote 2: 60 OK, 0 errores
+2026-02-28 18:40:14,467 - INFO -     160 registros guardados en features_procesadas
+2026-02-28 18:40:14,470 - INFO - ============================================================
+2026-02-28 18:40:14,470 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:40:14,470 - INFO - ============================================================
+2026-02-28 18:40:14,470 - INFO - [OK] Procesados OK: 160
+2026-02-28 18:40:14,470 - INFO - [*] Errores: 0
+2026-02-28 18:40:14,470 - INFO - [TIME] Duraci n: 0.4 segundos (0.0 minutos)
+2026-02-28 18:40:14,470 - INFO - [SPEED] Velocidad: 364.7 archivos/segundo
+2026-02-28 18:40:14,470 - INFO -   CSV guardado: procesados/features_20260228_1840.csv
+2026-02-28 18:40:14,470 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:40:14,470 - INFO - ============================================================
+2026-02-28 18:40:14,471 - INFO - ============================================================
+2026-02-28 18:40:14,471 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:40:14,471 - INFO - ============================================================
+2026-02-28 18:40:14,472 - INFO - Datos de entrenamiento: 60 registros
+2026-02-28 18:40:14,472 - INFO - Distribuci n: 42 permanecen, 18 desertan
+2026-02-28 18:40:14,473 - INFO - Features utilizadas: 28
+2026-02-28 18:40:14,474 - INFO - Entrenando Random Forest...
+2026-02-28 18:40:14,713 - INFO -   Accuracy: 0.917
+2026-02-28 18:40:14,713 - INFO -   AUC-ROC: 0.969
+2026-02-28 18:40:14,713 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:40:14,717 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      0.88      0.93         8
+     Deserta       0.80      1.00      0.89         4
+
+    accuracy                           0.92        12
+   macro avg       0.90      0.94      0.91        12
+weighted avg       0.93      0.92      0.92        12
+
+2026-02-28 18:40:14,733 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:40:14,734 - INFO -   promedio_ultimo: 0.170
+2026-02-28 18:40:14,734 - INFO -   satisfaccion_programa: 0.134
+2026-02-28 18:40:14,734 - INFO -   promedio_acumulado: 0.125
+2026-02-28 18:40:14,734 - INFO -   dificultad_pago: 0.110
+2026-02-28 18:40:14,735 - INFO -   estrato_bajo: 0.110
+2026-02-28 18:40:14,735 - INFO -   materias_perdidas: 0.083
+2026-02-28 18:40:14,735 - INFO -   estrato: 0.071
+2026-02-28 18:40:14,735 - INFO -   satisfaccion_baja: 0.033
+2026-02-28 18:40:14,735 - INFO -   trabaja_mucho: 0.027
+2026-02-28 18:40:14,735 - INFO -   trabaja: 0.023
+2026-02-28 18:40:14,739 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:40:14,740 - INFO -   Prediciendo 100 registros nuevos...
+2026-02-28 18:40:14,901 - INFO - 
+  ALERTAS ALTO RIESGO: 40 estudiantes
+2026-02-28 18:40:14,901 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:40:14,902 - INFO -   EST_VAR_014: 97.4% - Administracion
+2026-02-28 18:40:14,902 - INFO -   EST_VAR_020: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:40:14,902 - INFO -   EST_VAR_021: 97.4% - Derecho
+2026-02-28 18:40:14,902 - INFO -   EST_VAR_025: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:40:14,902 - INFO -   EST_VAR_047: 97.4% - Contaduria
+2026-02-28 18:40:14,904 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1840.csv
+2026-02-28 18:42:01,835 - INFO - ============================================================
+2026-02-28 18:42:01,835 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:42:01,835 - INFO - ============================================================
+2026-02-28 18:42:02,561 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:42:02,562 - INFO -   Total archivos a procesar: 110
+2026-02-28 18:42:02,562 - INFO -   Tama o de lote: 100
+2026-02-28 18:42:02,562 - INFO -   N mero de lotes: 2
+2026-02-28 18:42:02,562 - INFO - ------------------------------------------------------------
+2026-02-28 18:42:02,562 - INFO - Procesando lote 1/2...
+2026-02-28 18:42:02,685 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:42:02,686 - INFO - Procesando lote 2/2...
+2026-02-28 18:42:02,786 - INFO -   Lote 2: 10 OK, 0 errores
+2026-02-28 18:42:02,885 - INFO -     110 registros guardados en features_procesadas
+2026-02-28 18:42:02,888 - INFO - ============================================================
+2026-02-28 18:42:02,888 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:42:02,888 - INFO - ============================================================
+2026-02-28 18:42:02,889 - INFO - [OK] Procesados OK: 110
+2026-02-28 18:42:02,889 - INFO - [*] Errores: 0
+2026-02-28 18:42:02,889 - INFO - [TIME] Duraci n: 1.1 segundos (0.0 minutos)
+2026-02-28 18:42:02,889 - INFO - [SPEED] Velocidad: 104.4 archivos/segundo
+2026-02-28 18:42:02,889 - INFO -   CSV guardado: procesados/features_20260228_1842.csv
+2026-02-28 18:42:02,889 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:42:02,889 - INFO - ============================================================
+2026-02-28 18:42:02,890 - INFO - ============================================================
+2026-02-28 18:42:02,890 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:42:02,890 - INFO - ============================================================
+2026-02-28 18:42:02,891 - INFO - Datos de entrenamiento: 60 registros
+2026-02-28 18:42:02,891 - INFO - Distribuci n: 42 permanecen, 18 desertan
+2026-02-28 18:42:02,892 - INFO - Features utilizadas: 28
+2026-02-28 18:42:02,893 - INFO - Entrenando Random Forest...
+2026-02-28 18:42:03,130 - INFO -   Accuracy: 0.917
+2026-02-28 18:42:03,130 - INFO -   AUC-ROC: 0.969
+2026-02-28 18:42:03,130 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:42:03,134 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      0.88      0.93         8
+     Deserta       0.80      1.00      0.89         4
+
+    accuracy                           0.92        12
+   macro avg       0.90      0.94      0.91        12
+weighted avg       0.93      0.92      0.92        12
+
+2026-02-28 18:42:03,149 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:42:03,149 - INFO -   promedio_ultimo: 0.170
+2026-02-28 18:42:03,149 - INFO -   satisfaccion_programa: 0.134
+2026-02-28 18:42:03,149 - INFO -   promedio_acumulado: 0.125
+2026-02-28 18:42:03,149 - INFO -   dificultad_pago: 0.110
+2026-02-28 18:42:03,150 - INFO -   estrato_bajo: 0.110
+2026-02-28 18:42:03,150 - INFO -   materias_perdidas: 0.083
+2026-02-28 18:42:03,150 - INFO -   estrato: 0.071
+2026-02-28 18:42:03,150 - INFO -   satisfaccion_baja: 0.033
+2026-02-28 18:42:03,150 - INFO -   trabaja_mucho: 0.027
+2026-02-28 18:42:03,150 - INFO -   trabaja: 0.023
+2026-02-28 18:42:03,155 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:42:03,156 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:42:03,294 - INFO - 
+  ALERTAS ALTO RIESGO: 16 estudiantes
+2026-02-28 18:42:03,294 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:42:03,295 - INFO -   EST_NUEVO_017: 97.4% - Contaduria
+2026-02-28 18:42:03,295 - INFO -   EST_NUEVO_013: 97.4% - Psicologia
+2026-02-28 18:42:03,295 - INFO -   EST_NUEVO_026: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:42:03,296 - INFO -   EST_NUEVO_042: 97.4% - Contaduria
+2026-02-28 18:42:03,296 - INFO -   EST_NUEVO_005: 96.7% - Psicologia
+2026-02-28 18:42:03,297 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1842.csv
+2026-02-28 18:42:40,339 - INFO - ============================================================
+2026-02-28 18:42:40,340 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:42:40,340 - INFO - ============================================================
+2026-02-28 18:42:40,341 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:42:40,342 - INFO -   Total archivos a procesar: 160
+2026-02-28 18:42:40,342 - INFO -   Tama o de lote: 100
+2026-02-28 18:42:40,342 - INFO -   N mero de lotes: 2
+2026-02-28 18:42:40,342 - INFO - ------------------------------------------------------------
+2026-02-28 18:42:40,342 - INFO - Procesando lote 1/2...
+2026-02-28 18:42:40,480 - INFO -   Lote 1: 100 OK, 0 errores
+2026-02-28 18:42:40,481 - INFO - Procesando lote 2/2...
+2026-02-28 18:42:40,580 - INFO -   Lote 2: 60 OK, 0 errores
+2026-02-28 18:42:40,689 - INFO -     160 registros guardados en features_procesadas
+2026-02-28 18:42:40,692 - INFO - ============================================================
+2026-02-28 18:42:40,692 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:42:40,692 - INFO - ============================================================
+2026-02-28 18:42:40,692 - INFO - [OK] Procesados OK: 160
+2026-02-28 18:42:40,692 - INFO - [*] Errores: 0
+2026-02-28 18:42:40,692 - INFO - [TIME] Duraci n: 0.4 segundos (0.0 minutos)
+2026-02-28 18:42:40,692 - INFO - [SPEED] Velocidad: 453.8 archivos/segundo
+2026-02-28 18:42:40,692 - INFO -   CSV guardado: procesados/features_20260228_1842.csv
+2026-02-28 18:42:40,693 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:42:40,693 - INFO - ============================================================
+2026-02-28 18:42:40,693 - INFO - ============================================================
+2026-02-28 18:42:40,693 - INFO - ENTRENAMIENTO DE MODELO
+2026-02-28 18:42:40,694 - INFO - ============================================================
+2026-02-28 18:42:40,694 - INFO - Datos de entrenamiento: 60 registros
+2026-02-28 18:42:40,695 - INFO - Distribuci n: 42 permanecen, 18 desertan
+2026-02-28 18:42:40,696 - INFO - Features utilizadas: 28
+2026-02-28 18:42:40,697 - INFO - Entrenando Random Forest...
+2026-02-28 18:42:40,941 - INFO -   Accuracy: 0.917
+2026-02-28 18:42:40,941 - INFO -   AUC-ROC: 0.969
+2026-02-28 18:42:40,942 - INFO - 
+Reporte de clasificaci n:
+2026-02-28 18:42:40,946 - INFO - 
+              precision    recall  f1-score   support
+
+   Permanece       1.00      0.88      0.93         8
+     Deserta       0.80      1.00      0.89         4
+
+    accuracy                           0.92        12
+   macro avg       0.90      0.94      0.91        12
+weighted avg       0.93      0.92      0.92        12
+
+2026-02-28 18:42:40,961 - INFO - 
+[INFO] Top 10 features m s importantes:
+2026-02-28 18:42:40,961 - INFO -   promedio_ultimo: 0.170
+2026-02-28 18:42:40,961 - INFO -   satisfaccion_programa: 0.134
+2026-02-28 18:42:40,961 - INFO -   promedio_acumulado: 0.125
+2026-02-28 18:42:40,961 - INFO -   dificultad_pago: 0.110
+2026-02-28 18:42:40,961 - INFO -   estrato_bajo: 0.110
+2026-02-28 18:42:40,961 - INFO -   materias_perdidas: 0.083
+2026-02-28 18:42:40,961 - INFO -   estrato: 0.071
+2026-02-28 18:42:40,962 - INFO -   satisfaccion_baja: 0.033
+2026-02-28 18:42:40,962 - INFO -   trabaja_mucho: 0.027
+2026-02-28 18:42:40,962 - INFO -   trabaja: 0.023
+2026-02-28 18:42:40,967 - INFO - 
+[INFO] Modelo guardado: modelo_rf_v1.pkl
+2026-02-28 18:42:40,968 - INFO -   Prediciendo 100 registros nuevos...
+2026-02-28 18:42:41,140 - INFO - 
+  ALERTAS ALTO RIESGO: 31 estudiantes
+2026-02-28 18:42:41,140 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:42:41,141 - INFO -   EST_NUEVO_017: 97.4% - Contaduria
+2026-02-28 18:42:41,141 - INFO -   EST_NUEVO_013: 97.4% - Psicologia
+2026-02-28 18:42:41,141 - INFO -   EST_NUEVO_026: 97.4% - Ingenieria_Sistemas
+2026-02-28 18:42:41,141 - INFO -   EST_NUEVO_042: 97.4% - Contaduria
+2026-02-28 18:42:41,142 - INFO -   EST_NUEVO_005: 96.7% - Psicologia
+2026-02-28 18:42:41,144 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1842.csv
+2026-02-28 18:46:14,511 - INFO - ============================================================
+2026-02-28 18:46:14,511 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:46:14,512 - INFO - ============================================================
+2026-02-28 18:46:15,176 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:46:15,177 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:46:15,177 - INFO -   Tama o de lote: 100
+2026-02-28 18:46:15,178 - INFO -   N mero de lotes: 1
+2026-02-28 18:46:15,178 - INFO - ------------------------------------------------------------
+2026-02-28 18:46:15,178 - INFO - Procesando lote 1/1...
+2026-02-28 18:46:15,294 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:46:15,427 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:46:15,428 - INFO - ============================================================
+2026-02-28 18:46:15,428 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:46:15,429 - INFO - ============================================================
+2026-02-28 18:46:15,429 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:46:15,429 - INFO - [*] Errores: 0
+2026-02-28 18:46:15,429 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-02-28 18:46:15,429 - INFO - [SPEED] Velocidad: 54.5 archivos/segundo
+2026-02-28 18:46:15,429 - INFO -   CSV guardado: procesados/features_20260228_1846.csv
+2026-02-28 18:46:15,429 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:46:15,429 - INFO - ============================================================
+2026-02-28 18:46:15,432 - INFO -   Modelo cargado: modelo_rf_v1.pkl
+2026-02-28 18:46:15,433 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:46:15,585 - INFO - 
+  ALERTAS ALTO RIESGO: 0 estudiantes
+2026-02-28 18:46:15,588 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1846.csv
+2026-02-28 18:50:12,411 - INFO - ============================================================
+2026-02-28 18:50:12,411 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:50:12,412 - INFO - ============================================================
+2026-02-28 18:50:13,194 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:50:13,195 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:50:13,195 - INFO -   Tama o de lote: 100
+2026-02-28 18:50:13,195 - INFO -   N mero de lotes: 1
+2026-02-28 18:50:13,195 - INFO - ------------------------------------------------------------
+2026-02-28 18:50:13,195 - INFO - Procesando lote 1/1...
+2026-02-28 18:50:13,311 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:50:13,436 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:50:13,439 - INFO - ============================================================
+2026-02-28 18:50:13,439 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:50:13,439 - INFO - ============================================================
+2026-02-28 18:50:13,439 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:50:13,440 - INFO - [*] Errores: 0
+2026-02-28 18:50:13,440 - INFO - [TIME] Duraci n: 1.0 segundos (0.0 minutos)
+2026-02-28 18:50:13,440 - INFO - [SPEED] Velocidad: 48.6 archivos/segundo
+2026-02-28 18:50:13,440 - INFO -   CSV guardado: procesados/features_20260228_1850.csv
+2026-02-28 18:50:13,440 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:50:13,440 - INFO - ============================================================
+2026-02-28 18:50:14,125 - INFO -   Modelo cargado: modelo_rf_v1.pkl
+2026-02-28 18:50:14,126 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:50:14,253 - INFO - 
+  ALERTAS ALTO RIESGO: 10 estudiantes
+2026-02-28 18:50:14,253 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:50:14,255 - INFO -   EST_VAR_021: 100.0% - Derecho
+2026-02-28 18:50:14,256 - INFO -   EST_VAR_025: 100.0% - Ingenieria_Sistemas
+2026-02-28 18:50:14,256 - INFO -   EST_VAR_047: 99.9% - Contaduria
+2026-02-28 18:50:14,256 - INFO -   EST_VAR_002: 99.5% - Psicologia
+2026-02-28 18:50:14,256 - INFO -   EST_VAR_020: 99.5% - Ingenieria_Sistemas
+2026-02-28 18:50:14,258 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1850.csv
+2026-02-28 18:53:09,813 - INFO - ============================================================
+2026-02-28 18:53:09,814 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:53:09,814 - INFO - ============================================================
+2026-02-28 18:53:10,521 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:53:10,522 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:53:10,522 - INFO -   Tama o de lote: 100
+2026-02-28 18:53:10,522 - INFO -   N mero de lotes: 1
+2026-02-28 18:53:10,522 - INFO - ------------------------------------------------------------
+2026-02-28 18:53:10,523 - INFO - Procesando lote 1/1...
+2026-02-28 18:53:10,629 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:53:10,754 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:53:10,757 - INFO - ============================================================
+2026-02-28 18:53:10,757 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:53:10,757 - INFO - ============================================================
+2026-02-28 18:53:10,757 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:53:10,758 - INFO - [*] Errores: 0
+2026-02-28 18:53:10,758 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-02-28 18:53:10,758 - INFO - [SPEED] Velocidad: 53.0 archivos/segundo
+2026-02-28 18:53:10,758 - INFO -   CSV guardado: procesados/features_20260228_1853.csv
+2026-02-28 18:53:10,758 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:53:10,758 - INFO - ============================================================
+2026-02-28 18:53:11,429 - INFO -   Modelo cargado: modelo_rf_v1.pkl
+2026-02-28 18:53:11,429 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:53:11,546 - INFO - 
+  ALERTAS ALTO RIESGO: 10 estudiantes
+2026-02-28 18:53:11,546 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:53:11,548 - INFO -   EST_VAR_021: 100.0% - Derecho
+2026-02-28 18:53:11,548 - INFO -   EST_VAR_025: 100.0% - Ingenieria_Sistemas
+2026-02-28 18:53:11,548 - INFO -   EST_VAR_047: 99.9% - Contaduria
+2026-02-28 18:53:11,548 - INFO -   EST_VAR_002: 99.5% - Psicologia
+2026-02-28 18:53:11,549 - INFO -   EST_VAR_020: 99.5% - Ingenieria_Sistemas
+2026-02-28 18:53:11,550 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1853.csv
+2026-02-28 18:53:48,548 - INFO - ============================================================
+2026-02-28 18:53:48,549 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:53:48,549 - INFO - ============================================================
+2026-02-28 18:53:49,182 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:53:49,183 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:53:49,183 - INFO -   Tama o de lote: 100
+2026-02-28 18:53:49,183 - INFO -   N mero de lotes: 1
+2026-02-28 18:53:49,183 - INFO - ------------------------------------------------------------
+2026-02-28 18:53:49,183 - INFO - Procesando lote 1/1...
+2026-02-28 18:53:49,299 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:53:49,407 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:53:49,409 - INFO - ============================================================
+2026-02-28 18:53:49,409 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:53:49,410 - INFO - ============================================================
+2026-02-28 18:53:49,410 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:53:49,410 - INFO - [*] Errores: 0
+2026-02-28 18:53:49,410 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-02-28 18:53:49,410 - INFO - [SPEED] Velocidad: 58.1 archivos/segundo
+2026-02-28 18:53:49,410 - INFO -   CSV guardado: procesados/features_20260228_1853.csv
+2026-02-28 18:53:49,411 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:53:49,411 - INFO - ============================================================
+2026-02-28 18:53:49,419 - INFO -   Modelo cargado: modelo_rf_v1.pkl
+2026-02-28 18:53:49,419 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:53:49,532 - INFO - 
+  ALERTAS ALTO RIESGO: 5 estudiantes
+2026-02-28 18:53:49,533 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:53:49,534 - INFO -   EST_CAL_011: 99.2% - Ingenieria_Sistemas
+2026-02-28 18:53:49,534 - INFO -   EST_CAL_049: 99.2% - Ingenieria_Sistemas
+2026-02-28 18:53:49,534 - INFO -   EST_CAL_018: 99.2% - Ingenieria_Sistemas
+2026-02-28 18:53:49,535 - INFO -   EST_CAL_007: 98.2% - Derecho
+2026-02-28 18:53:49,535 - INFO -   EST_CAL_019: 98.2% - Contaduria
+2026-02-28 18:53:49,536 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1853.csv
+2026-02-28 18:55:58,058 - INFO - ============================================================
+2026-02-28 18:55:58,058 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:55:58,058 - INFO - ============================================================
+2026-02-28 18:55:58,673 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:55:58,674 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:55:58,674 - INFO -   Tama o de lote: 100
+2026-02-28 18:55:58,674 - INFO -   N mero de lotes: 1
+2026-02-28 18:55:58,674 - INFO - ------------------------------------------------------------
+2026-02-28 18:55:58,674 - INFO - Procesando lote 1/1...
+2026-02-28 18:55:58,773 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:55:58,889 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:55:58,891 - INFO - ============================================================
+2026-02-28 18:55:58,891 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:55:58,891 - INFO - ============================================================
+2026-02-28 18:55:58,891 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:55:58,891 - INFO - [*] Errores: 0
+2026-02-28 18:55:58,891 - INFO - [TIME] Duraci n: 0.8 segundos (0.0 minutos)
+2026-02-28 18:55:58,891 - INFO - [SPEED] Velocidad: 60.0 archivos/segundo
+2026-02-28 18:55:58,892 - INFO -   CSV guardado: procesados/features_20260228_1855.csv
+2026-02-28 18:55:58,892 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:55:58,892 - INFO - ============================================================
+2026-02-28 18:55:58,910 - INFO -   Modelo cargado: modelo_rf_v1.pkl
+2026-02-28 18:55:58,910 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:55:59,041 - INFO - 
+  ALERTAS ALTO RIESGO: 5 estudiantes
+2026-02-28 18:55:59,041 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:55:59,042 - INFO -   EST_CAL_007: 100.0% - Derecho
+2026-02-28 18:55:59,042 - INFO -   EST_CAL_011: 100.0% - Ingenieria_Sistemas
+2026-02-28 18:55:59,042 - INFO -   EST_CAL_018: 100.0% - Ingenieria_Sistemas
+2026-02-28 18:55:59,042 - INFO -   EST_CAL_019: 100.0% - Contaduria
+2026-02-28 18:55:59,043 - INFO -   EST_CAL_049: 100.0% - Ingenieria_Sistemas
+2026-02-28 18:55:59,044 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1855.csv
+2026-02-28 18:59:08,850 - INFO - ============================================================
+2026-02-28 18:59:08,850 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-02-28 18:59:08,850 - INFO - ============================================================
+2026-02-28 18:59:09,497 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-02-28 18:59:09,498 - INFO -   Total archivos a procesar: 50
+2026-02-28 18:59:09,498 - INFO -   Tama o de lote: 100
+2026-02-28 18:59:09,498 - INFO -   N mero de lotes: 1
+2026-02-28 18:59:09,498 - INFO - ------------------------------------------------------------
+2026-02-28 18:59:09,498 - INFO - Procesando lote 1/1...
+2026-02-28 18:59:09,597 - INFO -   Lote 1: 50 OK, 0 errores
+2026-02-28 18:59:09,714 - INFO -     50 registros guardados en features_procesadas
+2026-02-28 18:59:09,716 - INFO - ============================================================
+2026-02-28 18:59:09,716 - INFO - RESUMEN DE PROCESAMIENTO
+2026-02-28 18:59:09,716 - INFO - ============================================================
+2026-02-28 18:59:09,717 - INFO - [OK] Procesados OK: 50
+2026-02-28 18:59:09,717 - INFO - [*] Errores: 0
+2026-02-28 18:59:09,717 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-02-28 18:59:09,717 - INFO - [SPEED] Velocidad: 57.8 archivos/segundo
+2026-02-28 18:59:09,717 - INFO -   CSV guardado: procesados/features_20260228_1859.csv
+2026-02-28 18:59:09,717 - INFO -   Base de datos: sistema_desercion.db
+2026-02-28 18:59:09,717 - INFO - ============================================================
+2026-02-28 18:59:10,410 - INFO -   Modelo cargado: modelo_rf_v1.pkl
+2026-02-28 18:59:10,411 - INFO -   Prediciendo 50 registros nuevos...
+2026-02-28 18:59:10,539 - INFO - 
+  ALERTAS ALTO RIESGO: 10 estudiantes
+2026-02-28 18:59:10,540 - INFO - 
+Top 5 riesgos m s altos:
+2026-02-28 18:59:10,541 - INFO -   EST_VAR_002: 100.0% - Psicologia
+2026-02-28 18:59:10,541 - INFO -   EST_VAR_003: 100.0% - Derecho
+2026-02-28 18:59:10,542 - INFO -   EST_VAR_011: 100.0% - Derecho
+2026-02-28 18:59:10,542 - INFO -   EST_VAR_013: 100.0% - Psicologia
+2026-02-28 18:59:10,542 - INFO -   EST_VAR_014: 100.0% - Administracion
+2026-02-28 18:59:10,544 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260228_1859.csv

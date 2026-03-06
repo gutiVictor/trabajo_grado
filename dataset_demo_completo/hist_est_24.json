@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fecha_creacion": "2026-02-28T18:28:06.686462",
+    "tipo_registro": "HISTORICO"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_HISTORICO_024",
+    "programa": "Ingenieria_Sistemas",
+    "semestre_actual": 8,
+    "jornada": "Nocturna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 3.3,
+    "promedio_ultimo_semestre": 2.9499999999999997,
+    "materias_perdidas_ultimo": 1,
+    "dificultad_percibida": "Media",
+    "creditos": {
+      "aprobados": 40,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": true,
+    "frecuencia_semanal": 8
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "trabajo": {
+      "activo": false,
+      "horas_semanales": 0
+    },
+    "dificultad_pago": "Algunas"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_alguna_vez",
+    "satisfaccion_programa": 6,
+    "probabilidad_continuar_percibida": 0.5
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": 0
+  }
+}

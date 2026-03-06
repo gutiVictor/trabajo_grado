@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "2.0-CALIBRADO",
+    "fecha_creacion": "2026-02-28T18:52:01.963985"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_CAL_017",
+    "programa": "Contaduria",
+    "semestre_actual": 6,
+    "jornada": "Diurna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 4.41,
+    "promedio_ultimo_semestre": 4.34,
+    "materias_perdidas_ultimo": 0,
+    "dificultad_percibida": "Baja",
+    "creditos": {
+      "aprobados": 30,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": true,
+    "frecuencia_semanal": 10
+  },
+  "socioeconomico": {
+    "estrato": 3,
+    "trabajo": {
+      "activo": false,
+      "horas_semanales": 0
+    },
+    "dificultad_pago": "Ninguna"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "No",
+    "satisfaccion_programa": 9,
+    "probabilidad_continuar_percibida": 0.95
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

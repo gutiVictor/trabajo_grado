@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fecha_creacion": "2026-02-28T18:28:06.709340",
+    "tipo_registro": "NUEVO"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_NUEVO_035",
+    "programa": "Administracion",
+    "semestre_actual": 9,
+    "jornada": "Nocturna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 3.24,
+    "promedio_ultimo_semestre": 3.02,
+    "materias_perdidas_ultimo": 1,
+    "dificultad_percibida": "Media",
+    "creditos": {
+      "aprobados": 40,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": true,
+    "frecuencia_semanal": 8
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "trabajo": {
+      "activo": false,
+      "horas_semanales": 0
+    },
+    "dificultad_pago": "Algunas"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_alguna_vez",
+    "satisfaccion_programa": 4,
+    "probabilidad_continuar_percibida": 0.5
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

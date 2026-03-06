@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fecha_creacion": "2026-02-28T18:28:06.680460",
+    "tipo_registro": "HISTORICO"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_HISTORICO_007",
+    "programa": "Derecho",
+    "semestre_actual": 8,
+    "jornada": "Diurna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 2.46,
+    "promedio_ultimo_semestre": 2.4,
+    "materias_perdidas_ultimo": 5,
+    "dificultad_percibida": "Mucha",
+    "creditos": {
+      "aprobados": 40,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": false,
+    "frecuencia_semanal": 2
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "trabajo": {
+      "activo": true,
+      "horas_semanales": 40
+    },
+    "dificultad_pago": "Graves"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_frecuentemente",
+    "satisfaccion_programa": 1,
+    "probabilidad_continuar_percibida": 0.2
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": 0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fecha_creacion": "2026-02-28T18:28:06.690463",
+    "tipo_registro": "HISTORICO"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_HISTORICO_038",
+    "programa": "Contaduria",
+    "semestre_actual": 6,
+    "jornada": "Virtual"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 3.92,
+    "promedio_ultimo_semestre": 3.58,
+    "materias_perdidas_ultimo": 0,
+    "dificultad_percibida": "Media",
+    "creditos": {
+      "aprobados": 40,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": true,
+    "frecuencia_semanal": 8
+  },
+  "socioeconomico": {
+    "estrato": 4,
+    "trabajo": {
+      "activo": false,
+      "horas_semanales": 0
+    },
+    "dificultad_pago": "Ninguna"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "No",
+    "satisfaccion_programa": 10,
+    "probabilidad_continuar_percibida": 0.95
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": 1
+  }
+}

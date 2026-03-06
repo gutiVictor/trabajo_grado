@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "version": "1.0-MVP",
+    "fecha_creacion": "2026-02-28T18:25:03.367553",
+    "tipo_registro": "nuevo",
+    "institucion": "CUN"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_VAR_047",
+    "programa": "Contaduria",
+    "semestre_actual": 2,
+    "jornada": "Virtual"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 1.95,
+    "promedio_ultimo_semestre": 1.97,
+    "materias_perdidas_ultimo": 6,
+    "dificultad_percibida": "Mucha",
+    "creditos": {
+      "aprobados": 74,
+      "intentados": 100,
+      "pct_aprobados": 0.4
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": false,
+    "frecuencia_semanal": 1,
+    "participacion_sincronica": "Nunca",
+    "consulta_profesores": "Nunca"
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "estrato_bajo": true,
+    "trabajo": {
+      "activo": true,
+      "horas_semanales": 46
+    },
+    "dependientes_economicos": 4,
+    "dificultad_pago": "Graves"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_frecuentemente",
+    "satisfaccion_programa": 2,
+    "probabilidad_continuar_percibida": 0.2,
+    "claridad_proposito": "Nada_claro",
+    "evento_estresante": "Si"
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

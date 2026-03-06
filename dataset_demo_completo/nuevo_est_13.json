@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fecha_creacion": "2026-02-28T18:28:06.702278",
+    "tipo_registro": "NUEVO"
+  },
+  "identificacion": {
+    "id_anonimo": "EST_NUEVO_013",
+    "programa": "Psicologia",
+    "semestre_actual": 4,
+    "jornada": "Nocturna"
+  },
+  "datos_academicos": {
+    "promedio_acumulado": 1.96,
+    "promedio_ultimo_semestre": 1.68,
+    "materias_perdidas_ultimo": 3,
+    "dificultad_percibida": "Mucha",
+    "creditos": {
+      "aprobados": 40,
+      "intentados": 100
+    }
+  },
+  "engagement": {
+    "acceso_plataforma_mes": false,
+    "frecuencia_semanal": 2
+  },
+  "socioeconomico": {
+    "estrato": 2,
+    "trabajo": {
+      "activo": true,
+      "horas_semanales": 40
+    },
+    "dificultad_pago": "Graves"
+  },
+  "intencionalidad": {
+    "piensa_desertar": "Si_frecuentemente",
+    "satisfaccion_programa": 2,
+    "probabilidad_continuar_percibida": 0.2
+  },
+  "target_historico": {
+    "se_matriculo_siguiente_semestre": null
+  }
+}

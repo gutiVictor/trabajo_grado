@@ -1,0 +1,16 @@
+id,programa,semestre,jornada,promedio_acumulado,promedio_ultimo,materias_perdidas,dificultad_alta,pct_creditos_aprobados,acceso_plataforma,frecuencia_semanal,frecuencia_baja,participacion_baja,no_consulta_profesores,estrato,estrato_bajo,trabaja,horas_semanales,trabaja_mucho,dependientes,dificultad_pago,dificultad_pago_alta,piensa_desertar_frecuente,piensa_desertar_alguna_vez,satisfaccion_programa,satisfaccion_baja,probabilidad_continuar_percibida,probabilidad_continuar_baja,claridad_baja,evento_estresante,indice_riesgo_academico,indice_engagement,target_desercion,fecha_procesamiento
+EST_MUESTRA_001,Administracion,4,Virtual,3.05,1.55,5,1,0.27,1,2,1,1,1,1,1,1,45,1,3,1,0,1,0,4,1,0.3,1,1,1,0.5,0.5,,2026-02-28T18:21:13.848414
+EST_MUESTRA_002,Administracion,9,Virtual,3.02,1.82,4,1,0.15,1,1,1,1,1,1,1,1,40,1,2,1,0,1,0,1,1,0.3,1,1,0,0.5,0.5,,2026-02-28T18:21:13.848923
+EST_MUESTRA_003,Psicologia,10,Virtual,2.5,2.51,4,1,0.35,0,1,1,1,1,1,1,1,47,1,1,2,1,1,0,4,1,0.3,1,1,1,0.5,0.5,,2026-02-28T18:21:13.848928
+EST_MUESTRA_004,Contaduria,4,Nocturna,4.78,3.53,1,0,0.67,1,7,0,0,0,3,0,1,10,0,0,0,0,0,0,10,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.848928
+EST_MUESTRA_005,Contaduria,2,Virtual,4.77,3.84,0,0,0.52,1,6,0,0,0,4,0,1,8,0,0,0,0,0,0,9,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.849442
+EST_MUESTRA_006,Administracion,6,Diurna,4.32,4.48,0,0,0.19,1,5,0,0,0,4,0,1,9,0,0,0,0,0,0,9,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.849442
+EST_MUESTRA_007,Derecho,6,Diurna,2.6,2.59,2,1,0.1,1,0,1,1,1,2,1,1,34,1,1,2,1,1,0,1,1,0.3,1,1,0,0.5,0.5,,2026-02-28T18:21:13.849442
+EST_MUESTRA_008,Derecho,2,Virtual,4.41,4.28,1,0,0.26,1,9,0,0,0,4,0,1,8,0,0,0,0,0,0,10,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.849442
+EST_MUESTRA_009,Ingenieria_Sistemas,10,Virtual,3.8,4.48,1,0,0.49,1,6,0,0,0,3,0,1,1,0,0,0,0,0,0,8,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.849952
+EST_MUESTRA_010,Derecho,3,Nocturna,2.13,2.96,3,1,0.45,0,2,1,1,1,2,1,1,30,1,3,2,1,1,0,3,1,0.3,1,1,0,0.5,0.5,,2026-02-28T18:21:13.849952
+EST_MUESTRA_011,Administracion,8,Nocturna,4.01,4.65,0,0,0.28,1,12,0,0,0,3,0,1,14,0,0,0,0,0,0,9,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.849952
+EST_MUESTRA_012,Ingenieria_Sistemas,3,Virtual,4.13,4.08,0,0,0.74,1,6,0,0,0,4,0,1,11,0,0,0,0,0,0,7,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.849952
+EST_MUESTRA_013,Administracion,8,Diurna,4.23,3.65,0,0,0.52,1,10,0,0,0,3,0,1,4,0,0,0,0,0,0,8,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.850462
+EST_MUESTRA_014,Ingenieria_Sistemas,9,Nocturna,4.92,4.94,0,0,0.55,1,8,0,0,0,4,0,1,3,0,0,0,0,0,0,9,0,0.9,0,0,0,0.5,0.5,,2026-02-28T18:21:13.850462
+EST_MUESTRA_015,Administracion,1,Virtual,2.13,2.92,5,1,0.1,1,0,1,1,1,1,1,1,34,1,1,2,1,1,0,1,1,0.3,1,1,1,0.5,0.5,,2026-02-28T18:21:13.850462
