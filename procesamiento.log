@@ -1561,3 +1561,37 @@ Top 5 riesgos m s altos:
 2026-02-28 18:59:10,542 - INFO -   EST_VAR_014: 100.0% - Administracion
 2026-02-28 18:59:10,544 - INFO - 
   Predicciones guardadas: procesados/alertas_20260228_1859.csv
+2026-03-28 13:38:44,491 - INFO - ============================================================
+2026-03-28 13:38:44,491 - INFO - INICIANDO PROCESAMIENTO MASIVO
+2026-03-28 13:38:44,491 - INFO - ============================================================
+2026-03-28 13:38:45,147 - INFO - [OK] Base de datos inicializada: sistema_desercion.db
+2026-03-28 13:38:45,148 - INFO -   Total archivos a procesar: 49
+2026-03-28 13:38:45,148 - INFO -   Tama o de lote: 100
+2026-03-28 13:38:45,148 - INFO -   N mero de lotes: 1
+2026-03-28 13:38:45,148 - INFO - ------------------------------------------------------------
+2026-03-28 13:38:45,149 - INFO - Procesando lote 1/1...
+2026-03-28 13:38:45,297 - INFO -   Lote 1: 49 OK, 0 errores
+2026-03-28 13:38:45,439 - INFO -     49 registros guardados en features_procesadas
+2026-03-28 13:38:45,441 - INFO - ============================================================
+2026-03-28 13:38:45,441 - INFO - RESUMEN DE PROCESAMIENTO
+2026-03-28 13:38:45,441 - INFO - ============================================================
+2026-03-28 13:38:45,441 - INFO - [OK] Procesados OK: 49
+2026-03-28 13:38:45,441 - INFO - [*] Errores: 0
+2026-03-28 13:38:45,442 - INFO - [TIME] Duraci n: 0.9 segundos (0.0 minutos)
+2026-03-28 13:38:45,442 - INFO - [SPEED] Velocidad: 51.6 archivos/segundo
+2026-03-28 13:38:45,442 - INFO -   CSV guardado: procesados/features_20260328_1338.csv
+2026-03-28 13:38:45,442 - INFO -   Base de datos: sistema_desercion.db
+2026-03-28 13:38:45,443 - INFO - ============================================================
+2026-03-28 13:38:46,827 - INFO -   Modelo cargado: modelo_rf_v1.pkl
+2026-03-28 13:38:46,827 - INFO -   Prediciendo 49 registros nuevos...
+2026-03-28 13:38:46,981 - INFO - 
+  ALERTAS ALTO RIESGO: 15 estudiantes
+2026-03-28 13:38:46,981 - INFO - 
+Top 5 riesgos m s altos:
+2026-03-28 13:38:46,984 - INFO -   EST_MUESTRA_003: 100.0% - Psicologia
+2026-03-28 13:38:46,984 - INFO -   EST_MUESTRA_015: 100.0% - Administracion
+2026-03-28 13:38:46,985 - INFO -   EST_MUESTRA_019: 100.0% - Psicologia
+2026-03-28 13:38:46,985 - INFO -   EST_MUESTRA_039: 100.0% - Derecho
+2026-03-28 13:38:46,986 - INFO -   EST_MUESTRA_043: 100.0% - Derecho
+2026-03-28 13:38:46,988 - INFO - 
+  Predicciones guardadas: procesados/alertas_20260328_1338.csv
